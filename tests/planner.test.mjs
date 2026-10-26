@@ -1,0 +1,12 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {plan,dayKey,mergeEvents,streak,DAY} from '../src/planner.js';
+import {validateImport} from '../src/store.js';
+const now=new Date(2026,9,26,12).getTime();
+test('every offered duration produces a real plan with exact budget',()=>{for(const n of [5,10,15,20,30,45,60,90,180]){const p=plan(n,[],now);assert.ok(p.length>0);assert.equal(p.reduce((s,t)=>s+t.minutes,0),n);for(const t of p)assert.ok(t.minutes>=t.min&&t.minutes<=t.max);}});
+test('a short plan has fewer distinct modules',()=>{assert.ok(plan(5,[],now).length<plan(60,[],now).length);});
+test('changing budget preserves completed modules and minutes',()=>{const e={id:'1',module:'busuu',minutes:20,type:'complete',day:dayKey(new Date(now)),at:now};const p=plan(5,[e],now);assert.equal(p.length,1);assert.equal(p[0].done,true);assert.equal(p[0].minutes,20);});
+test('missed grammar increases priority, attempts do not finish tasks',()=>{const e={id:'1',module:'grammar',minutes:0,type:'attempt',score:0.1,day:dayKey(new Date(now)),at:now};const p=plan(5,[e],now);assert.equal(p[0].id,'grammar');assert.ok(!p[0].done);});
+test('event merge is idempotent and commutative for immutable events',()=>{const a={id:'a',at:1},b={id:'b',at:2};assert.deepEqual(mergeEvents([a],[a,b]),[a,b]);assert.deepEqual(mergeEvents([b],[a]),mergeEvents([a],[b]));});
+test('streak accepts yesterday but breaks across a missed day',()=>{const ev=off=>({type:'complete',day:dayKey(new Date(now-off*DAY))});assert.equal(streak([ev(1),ev(2)],new Date(now)),2);assert.equal(streak([ev(0),ev(2)],new Date(now)),1);});
+test('import rejects corrupt session data',()=>{assert.throws(()=>validateImport({version:1,events:[{id:'x',module:'unknown'}]}));assert.equal(validateImport({version:1,events:[]}).version,1);});
