@@ -740,5 +740,765 @@
     "id": "grammar-11",
     "name": "Comparatives",
     "level": "A2"
+  },
+  {
+    "id": "grammar-12",
+    "name": "Present Perfect Continuous",
+    "level": "B1",
+    "use": [
+      "czynność rozpoczęta w przeszłości i nadal trwająca",
+      "niedawna aktywność z widocznym skutkiem"
+    ],
+    "form": [
+      "have / has + been + verb-ing",
+      "I have been studying for two hours.",
+      "She hasn’t been sleeping well.",
+      "Have you been waiting long?"
+    ],
+    "ex": [
+      [
+        "I have been learning English since May.",
+        "Uczę się angielskiego od maja."
+      ],
+      [
+        "It has been raining all morning.",
+        "Pada przez cały ranek."
+      ]
+    ],
+    "mist": "I have learning → I have been learning.",
+    "prompt": "Describe an activity you have been doing recently.",
+    "q": [
+      [
+        "She ___ been working.",
+        [
+          "has",
+          "have",
+          "is"
+        ],
+        0,
+        "She wymaga has."
+      ],
+      [
+        "I have been ___ English.",
+        [
+          "learn",
+          "learning",
+          "learnt"
+        ],
+        1,
+        "Po been stosujemy -ing."
+      ]
+    ],
+    "compare": "Present Perfect Simple podkreśla rezultat lub liczbę, a Continuous czas trwania lub przebieg. I have read two books / I have been reading all evening."
+  },
+  {
+    "id": "grammar-13",
+    "name": "Past Perfect",
+    "level": "B1",
+    "use": [
+      "wydarzenie wcześniejsze od innego momentu w przeszłości"
+    ],
+    "form": [
+      "had + past participle",
+      "I had finished before she arrived.",
+      "I hadn’t seen it before.",
+      "Had you met him before?"
+    ],
+    "ex": [
+      [
+        "The train had left when I arrived.",
+        "Pociąg odjechał, zanim dotarłem."
+      ],
+      [
+        "I was hungry because I hadn’t eaten.",
+        "Byłem głodny, bo nie jadłem."
+      ]
+    ],
+    "mist": "I had went → I had gone.",
+    "prompt": "Describe something that had happened before you arrived somewhere.",
+    "q": [
+      [
+        "She had ___ home.",
+        [
+          "go",
+          "gone",
+          "went"
+        ],
+        1,
+        "Potrzebna jest III forma."
+      ],
+      [
+        "They ___ finished before noon.",
+        [
+          "had",
+          "have",
+          "are"
+        ],
+        0,
+        "Punkt odniesienia jest w przeszłości."
+      ]
+    ],
+    "compare": "Past Simple przedstawia kolejne zdarzenia; Past Perfect pomaga cofnąć się do wcześniejszego zdarzenia. Nie jest potrzebny do każdej wcześniejszej czynności."
+  },
+  {
+    "id": "grammar-14",
+    "name": "Past Perfect Continuous",
+    "level": "B2",
+    "use": [
+      "czas trwania aktywności przed momentem w przeszłości",
+      "przyczyna przeszłego skutku"
+    ],
+    "form": [
+      "had been + verb-ing",
+      "I had been running.",
+      "She hadn’t been feeling well.",
+      "Had they been waiting long?"
+    ],
+    "ex": [
+      [
+        "He was tired because he had been running.",
+        "Był zmęczony, bo wcześniej biegał."
+      ],
+      [
+        "We had been waiting for an hour when the bus came.",
+        "Czekaliśmy od godziny, gdy przyjechał autobus."
+      ]
+    ],
+    "mist": "We had waiting → We had been waiting.",
+    "prompt": "Explain why you were tired on a particular day.",
+    "q": [
+      [
+        "I had been ___ all day.",
+        [
+          "work",
+          "worked",
+          "working"
+        ],
+        2,
+        "Continuous wymaga -ing."
+      ],
+      [
+        "They ___ been driving for hours.",
+        [
+          "had",
+          "have",
+          "were"
+        ],
+        0,
+        "Punkt odniesienia jest w przeszłości."
+      ]
+    ],
+    "compare": "Past Perfect Simple kładzie nacisk na zakończenie, a Continuous na trwanie: I had written the report / I had been writing the report for two hours."
+  },
+  {
+    "id": "grammar-15",
+    "name": "Future Continuous",
+    "level": "B2",
+    "use": [
+      "czynność trwająca w określonym momencie przyszłości"
+    ],
+    "form": [
+      "will be + verb-ing",
+      "I will be working at six.",
+      "She won’t be travelling tomorrow.",
+      "Will you be using the car tonight?"
+    ],
+    "ex": [
+      [
+        "At eight, I’ll be studying.",
+        "O ósmej będę się uczyć."
+      ],
+      [
+        "This time tomorrow, we’ll be flying to Spain.",
+        "Jutro o tej porze będziemy lecieć do Hiszpanii."
+      ]
+    ],
+    "mist": "I will working → I will be working.",
+    "prompt": "Describe what you will be doing at three different times tomorrow.",
+    "q": [
+      [
+        "At nine I will be ___.",
+        [
+          "study",
+          "studying",
+          "studied"
+        ],
+        1,
+        "Will be + -ing."
+      ],
+      [
+        "She ___ be waiting at the station.",
+        [
+          "will",
+          "is",
+          "has"
+        ],
+        0,
+        "Future Continuous wymaga will be."
+      ]
+    ],
+    "compare": "Will + bezokolicznik może wyrażać decyzję lub przewidywanie. Will be doing pokazuje przebieg czynności w przyszłej chwili."
+  },
+  {
+    "id": "grammar-16",
+    "name": "Future Perfect",
+    "level": "B2",
+    "use": [
+      "czynność zakończona przed przyszłym terminem"
+    ],
+    "form": [
+      "will have + past participle",
+      "I will have finished by Friday.",
+      "She won’t have arrived by then.",
+      "Will you have completed it by noon?"
+    ],
+    "ex": [
+      [
+        "By June, I’ll have finished the course.",
+        "Do czerwca skończę kurs."
+      ],
+      [
+        "They’ll have left before we arrive.",
+        "Wyjadą, zanim dotrzemy."
+      ]
+    ],
+    "mist": "I will have finish → I will have finished.",
+    "prompt": "Describe two things you will have achieved by the end of next year.",
+    "q": [
+      [
+        "By Friday I will have ___.",
+        [
+          "finish",
+          "finished",
+          "finishing"
+        ],
+        1,
+        "Po have użyj III formy."
+      ],
+      [
+        "They will ___ left by then.",
+        [
+          "be",
+          "have",
+          "had"
+        ],
+        1,
+        "Will have + III forma."
+      ]
+    ],
+    "compare": "Future Perfect skupia się na osiągnięciu do terminu (by). Future Continuous pokazuje czynność trwającą w danym momencie (at)."
+  },
+  {
+    "id": "grammar-17",
+    "name": "Future Perfect Continuous",
+    "level": "B2",
+    "use": [
+      "czas trwania aktywności do określonego momentu przyszłości"
+    ],
+    "form": [
+      "will have been + verb-ing",
+      "I will have been working here for a year.",
+      "She won’t have been waiting long.",
+      "How long will you have been studying by June?"
+    ],
+    "ex": [
+      [
+        "By May, I’ll have been learning English for two years.",
+        "W maju miną dwa lata, odkąd uczę się angielskiego."
+      ],
+      [
+        "By six, we’ll have been driving for five hours.",
+        "O szóstej będziemy w drodze od pięciu godzin."
+      ]
+    ],
+    "mist": "I will have learning → I will have been learning.",
+    "prompt": "Say how long you will have been doing something by a future date.",
+    "q": [
+      [
+        "By June I will have been ___.",
+        [
+          "study",
+          "studying",
+          "studied"
+        ],
+        1,
+        "Po been użyj -ing."
+      ],
+      [
+        "We will have ___ driving for hours.",
+        [
+          "be",
+          "been",
+          "being"
+        ],
+        1,
+        "Pełna konstrukcja zawiera been."
+      ]
+    ],
+    "compare": "Future Perfect mówi o ukończonym rezultacie, a Future Perfect Continuous o długości trwania do przyszłego punktu."
+  },
+  {
+    "id": "grammar-18",
+    "name": "Questions & negatives",
+    "level": "A1",
+    "use": [
+      "pytania o informacje",
+      "zaprzeczenia w codziennych rozmowach"
+    ],
+    "form": [
+      "Do / Does + subject + base verb?",
+      "She works here.",
+      "She doesn’t work here.",
+      "Does she work here?"
+    ],
+    "ex": [
+      [
+        "Where do you live?",
+        "Gdzie mieszkasz?"
+      ],
+      [
+        "I don’t understand.",
+        "Nie rozumiem."
+      ],
+      [
+        "Is she ready?",
+        "Czy jest gotowa?"
+      ]
+    ],
+    "mist": "Does she works? → Does she work? Przy be nie dodawaj do.",
+    "prompt": "Ask three questions to get to know a new classmate.",
+    "q": [
+      [
+        "Where ___ you live?",
+        [
+          "do",
+          "are",
+          "is"
+        ],
+        0,
+        "Z live w Present Simple używamy do."
+      ],
+      [
+        "She doesn’t ___ here.",
+        [
+          "works",
+          "work",
+          "working"
+        ],
+        1,
+        "Po doesn’t czasownik podstawowy."
+      ]
+    ],
+    "compare": "Be tworzy pytanie przez przestawienie: Are you ready? Inne czasowniki w Present Simple wymagają do/does: Do you work?"
+  },
+  {
+    "id": "grammar-19",
+    "name": "Prepositions of time & place",
+    "level": "A1",
+    "use": [
+      "określanie czasu i miejsca"
+    ],
+    "form": [
+      "at + time / a point",
+      "on + day / surface",
+      "in + month / year / enclosed space",
+      "I am not at home. / Are you at home?"
+    ],
+    "ex": [
+      [
+        "We meet at six on Monday.",
+        "Spotykamy się w poniedziałek o szóstej."
+      ],
+      [
+        "The keys are on the table.",
+        "Klucze są na stole."
+      ],
+      [
+        "I live in Poland.",
+        "Mieszkam w Polsce."
+      ]
+    ],
+    "mist": "in Monday → on Monday; at June → in June.",
+    "prompt": "Describe where three things are and when you use them.",
+    "q": [
+      [
+        "We meet ___ Monday.",
+        [
+          "in",
+          "on",
+          "at"
+        ],
+        1,
+        "Dni tygodnia: on."
+      ],
+      [
+        "The class starts ___ nine.",
+        [
+          "at",
+          "in",
+          "on"
+        ],
+        0,
+        "Godziny: at."
+      ]
+    ],
+    "compare": "At wskazuje punkt, in wnętrze lub większy okres, on powierzchnię lub konkretny dzień. Wyrażenia jak at night wymagają zapamiętania jako całość."
+  },
+  {
+    "id": "grammar-20",
+    "name": "Countable & uncountable nouns",
+    "level": "A2",
+    "use": [
+      "mówienie o ilości",
+      "zakupy i jedzenie"
+    ],
+    "form": [
+      "many / a few + plural countable nouns",
+      "much / a little + uncountable nouns",
+      "I have some water. / I don’t have any water.",
+      "Do you have any bread?"
+    ],
+    "ex": [
+      [
+        "There are a few apples.",
+        "Jest kilka jabłek."
+      ],
+      [
+        "I need some advice.",
+        "Potrzebuję porady."
+      ],
+      [
+        "How much water do you drink?",
+        "Ile wody pijesz?"
+      ]
+    ],
+    "mist": "an advice → some advice / a piece of advice.",
+    "prompt": "Make a short shopping list and explain the quantities you need.",
+    "q": [
+      [
+        "How ___ money do you need?",
+        [
+          "many",
+          "much",
+          "a few"
+        ],
+        1,
+        "Money jest niepoliczalne."
+      ],
+      [
+        "There are ___ apples.",
+        [
+          "a little",
+          "a few",
+          "much"
+        ],
+        1,
+        "Apples są policzalne."
+      ]
+    ],
+    "compare": "A few oznacza kilka, a a little niewielką ilość. Samo few/little często podkreśla niedostatek. Information, advice i furniture są niepoliczalne."
+  },
+  {
+    "id": "grammar-21",
+    "name": "Gerunds & infinitives",
+    "level": "B1",
+    "use": [
+      "łączenie dwóch czasowników",
+      "mówienie o zamiarach i preferencjach"
+    ],
+    "form": [
+      "enjoy / avoid / finish + verb-ing",
+      "want / decide / hope + to + verb",
+      "I enjoy reading. / I don’t enjoy waiting.",
+      "Do you want to join us?"
+    ],
+    "ex": [
+      [
+        "I decided to study abroad.",
+        "Zdecydowałem się studiować za granicą."
+      ],
+      [
+        "She enjoys playing football.",
+        "Lubi grać w piłkę."
+      ],
+      [
+        "Thank you for helping me.",
+        "Dziękuję za pomoc."
+      ]
+    ],
+    "mist": "I enjoy to read → I enjoy reading.",
+    "prompt": "Write what you enjoy doing and what you hope to do next year.",
+    "q": [
+      [
+        "I enjoy ___.",
+        [
+          "to swim",
+          "swimming",
+          "swim"
+        ],
+        1,
+        "Enjoy wymaga -ing."
+      ],
+      [
+        "They decided ___ home.",
+        [
+          "going",
+          "go",
+          "to go"
+        ],
+        2,
+        "Decide łączy się z to + bezokolicznik."
+      ]
+    ],
+    "compare": "Po przyimku zwykle używamy -ing. Niektóre czasowniki zmieniają znaczenie: stop smoking oznacza rzucić palenie, stop to smoke — zatrzymać się, żeby zapalić."
+  },
+  {
+    "id": "grammar-22",
+    "name": "Relative clauses",
+    "level": "B1",
+    "use": [
+      "doprecyzowanie osoby lub rzeczy",
+      "łączenie informacji w naturalną wypowiedź"
+    ],
+    "form": [
+      "who → people; which → things; that → people / things in defining clauses",
+      "The student who helped me is here.",
+      "This is not the book that I wanted.",
+      "Is that the person who called?"
+    ],
+    "ex": [
+      [
+        "This is the café where we met.",
+        "To kawiarnia, w której się spotkaliśmy."
+      ],
+      [
+        "The woman who lives next door is a doctor.",
+        "Kobieta mieszkająca obok jest lekarką."
+      ]
+    ],
+    "mist": "The man which… → The man who…",
+    "prompt": "Describe a person who inspires you and a place where you feel comfortable.",
+    "q": [
+      [
+        "The person ___ called is my friend.",
+        [
+          "who",
+          "which",
+          "where"
+        ],
+        0,
+        "Who odnosi się do osoby."
+      ],
+      [
+        "This is the town ___ I grew up.",
+        [
+          "which",
+          "where",
+          "who"
+        ],
+        1,
+        "Where opisuje miejsce zdarzenia."
+      ]
+    ],
+    "compare": "Defining clauses identyfikują osobę lub rzecz. Non-defining clauses dodają informację w przecinkach i nie używają that."
+  },
+  {
+    "id": "grammar-23",
+    "name": "Third & mixed conditionals",
+    "level": "B2",
+    "use": [
+      "hipotetyczna przeszłość",
+      "przeszłe warunki z teraźniejszym skutkiem"
+    ],
+    "form": [
+      "If + had + past participle, would have + past participle",
+      "If I had studied, I would have passed.",
+      "I wouldn’t have missed it if I had left earlier.",
+      "Would you have gone if you had known?"
+    ],
+    "ex": [
+      [
+        "If I had saved more, I would have bought a car.",
+        "Gdybym więcej odłożył, kupiłbym samochód."
+      ],
+      [
+        "If I had gone to bed earlier, I wouldn’t be tired now.",
+        "Gdybym wcześniej poszedł spać, nie byłbym teraz zmęczony."
+      ]
+    ],
+    "mist": "If I would have known → If I had known.",
+    "prompt": "Describe an imaginary change to a past decision and its result.",
+    "q": [
+      [
+        "If I had known, I would have ___.",
+        [
+          "help",
+          "helped",
+          "helping"
+        ],
+        1,
+        "Would have + III forma."
+      ],
+      [
+        "If she ___ left earlier, she would be here now.",
+        [
+          "had",
+          "would",
+          "has"
+        ],
+        0,
+        "Warunek w przeszłości wymaga had."
+      ]
+    ],
+    "compare": "Third conditional łączy przeszły warunek z przeszłym skutkiem. Mixed conditional może łączyć przeszły warunek z sytuacją teraz."
+  },
+  {
+    "id": "grammar-24",
+    "name": "Used to & be used to",
+    "level": "B1",
+    "use": [
+      "dawne zwyczaje",
+      "przyzwyczajenie do sytuacji"
+    ],
+    "form": [
+      "used to + base verb: past habits",
+      "be used to + noun / verb-ing: familiarity",
+      "I didn’t use to drink coffee.",
+      "Did you use to live here?"
+    ],
+    "ex": [
+      [
+        "I used to play football every day.",
+        "Kiedyś codziennie grałem w piłkę."
+      ],
+      [
+        "I am used to getting up early.",
+        "Jestem przyzwyczajony do wczesnego wstawania."
+      ]
+    ],
+    "mist": "I am used to get up → I am used to getting up.",
+    "prompt": "Describe a habit you had as a child and something you are used to now.",
+    "q": [
+      [
+        "I used to ___ here.",
+        [
+          "live",
+          "living",
+          "lived"
+        ],
+        0,
+        "Used to + forma podstawowa."
+      ],
+      [
+        "I am used to ___ early.",
+        [
+          "wake",
+          "waking",
+          "woke"
+        ],
+        1,
+        "Be used to + -ing."
+      ]
+    ],
+    "compare": "Used to opisuje dawną sytuację, która się zmieniła. Be used to oznacza przyzwyczajenie. Get used to opisuje proces przyzwyczajania się."
+  },
+  {
+    "id": "grammar-25",
+    "name": "Modals of deduction",
+    "level": "B2",
+    "use": [
+      "wnioskowanie na podstawie dowodów",
+      "wyrażanie stopnia pewności"
+    ],
+    "form": [
+      "must / might / can’t + base verb (present)",
+      "must / might / can’t have + past participle (past)",
+      "She must be tired. / She can’t be at home.",
+      "Could he have missed the train?"
+    ],
+    "ex": [
+      [
+        "The lights are off. They might be asleep.",
+        "Światła są wyłączone. Może śpią."
+      ],
+      [
+        "He can’t have forgotten again.",
+        "Niemożliwe, żeby znowu zapomniał."
+      ]
+    ],
+    "mist": "He must to be → He must be. Mustn’t wyraża zakaz, nie zaprzeczenie wniosku.",
+    "prompt": "Make three guesses about a friend based on clues.",
+    "q": [
+      [
+        "He worked all night. He ___ be tired.",
+        [
+          "must",
+          "mustn’t",
+          "to"
+        ],
+        0,
+        "Must to mocny wniosek."
+      ],
+      [
+        "She might have ___ the bus.",
+        [
+          "miss",
+          "missed",
+          "missing"
+        ],
+        1,
+        "Wniosek o przeszłości: have + III forma."
+      ]
+    ],
+    "compare": "Mustn’t oznacza zakaz; can’t wyraża przekonanie, że coś jest niemożliwe. Might sygnalizuje możliwość."
+  },
+  {
+    "id": "grammar-26",
+    "name": "Linking ideas",
+    "level": "B1",
+    "use": [
+      "wyrażanie przyczyny, skutku i kontrastu"
+    ],
+    "form": [
+      "because + clause; because of + noun",
+      "although + clause; despite + noun / -ing",
+      "I stayed home because I was ill.",
+      "Although it was raining, we went out."
+    ],
+    "ex": [
+      [
+        "Despite the rain, we played football.",
+        "Pomimo deszczu graliśmy w piłkę."
+      ],
+      [
+        "I was tired, so I went to bed.",
+        "Byłem zmęczony, więc poszedłem spać."
+      ]
+    ],
+    "mist": "Despite it was raining → Despite the rain / Although it was raining.",
+    "prompt": "Write four sentences about a difficult day, linking causes and contrasts.",
+    "q": [
+      [
+        "We stayed home ___ it was raining.",
+        [
+          "because",
+          "because of",
+          "despite"
+        ],
+        0,
+        "Po because występuje zdanie."
+      ],
+      [
+        "___ the rain, we went out.",
+        [
+          "Although",
+          "Despite",
+          "Because"
+        ],
+        1,
+        "Despite + rzeczownik."
+      ]
+    ],
+    "compare": "Although wprowadza zdanie z podmiotem i czasownikiem, despite — rzeczownik lub -ing. Nie łącz although i but w tym samym układzie."
   }
 ]

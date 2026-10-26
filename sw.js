@@ -1,5 +1,5 @@
-const CACHE='englishflow-v1';
-const CORE=['./','./index.html','./src/app.js','./src/style.css','./src/store.js','./src/planner.js','./src/materials.json','./src/grammar.json','./icons/icon.svg','./manifest.webmanifest'];
+const CACHE='englishflow-v2';
+const CORE=['./','./index.html','./src/app.js','./src/style.css','./src/cloud.js','./src/store.js','./src/planner.js','./src/materials.json','./src/grammar.json','./icons/icon.svg','./manifest.webmanifest'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE))));
 self.addEventListener('message',e=>{if(e.data==='ACTIVATE')self.skipWaiting();});
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(ks=>Promise.all(ks.filter(k=>k.startsWith('englishflow-')&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
