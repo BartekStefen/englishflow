@@ -1,0 +1,360 @@
+{
+  "https://www.youtube.com/watch?v=X6LuWwb9whM": {
+    "result": "inconclusive",
+    "checkedAt": "2026-10-26T14:12:23.388Z"
+  },
+  "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260605": {
+    "status": 200,
+    "checkedAt": "2026-10-26T14:12:23.923Z",
+    "result": "available"
+  },
+  "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/251107": {
+    "status": 200,
+    "checkedAt": "2026-10-26T14:12:23.950Z",
+    "result": "available"
+  },
+  "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260522": {
+    "status": 200,
+    "checkedAt": "2026-10-26T14:12:23.996Z",
+    "result": "available"
+  },
+  "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/251114": {
+    "status": 200,
+    "checkedAt": "2026-10-26T14:12:24.023Z",
+    "result": "available"
+  },
+  "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260320": {
+    "status": 200,
+    "checkedAt": "2026-10-26T14:12:24.032Z",
+    "result": "available"
+  },
+  "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/251212": {
+    "status": 200,
+    "checkedAt": "2026-10-26T14:12:24.135Z",
+    "result": "available"
+  },
+  "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260220": {
+    "status": 200,
+    "checkedAt": "2026-10-26T14:12:24.155Z",
+    "result": "available"
+  },
+  "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260821": {
+    "status": 200,
+    "checkedAt": "2026-10-26T14:12:24.190Z",
+    "result": "available"
+  },
+  "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260717": {
+    "status": 200,
+    "checkedAt": "2026-10-26T14:12:24.192Z",
+    "result": "available"
+  },
+  "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260911": {
+    "status": 200,
+    "checkedAt": "2026-10-26T14:12:24.274Z",
+    "result": "available"
+  },
+  "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/240830": {
+    "status": 200,
+    "checkedAt": "2026-10-26T14:12:24.299Z",
+    "result": "available"
+  },
+  "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260116": {
+    "status": 200,
+    "checkedAt": "2026-10-26T14:12:24.329Z",
+    "result": "available"
+  },
+  "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260807": {
+    "status": 200,
+    "checkedAt": "2026-10-26T14:12:24.331Z",
+    "result": "available"
+  },
+  "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260130": {
+    "status": 200,
+    "checkedAt": "2026-10-26T14:12:24.355Z",
+    "result": "available"
+  },
+  "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260828": {
+    "status": 200,
+    "checkedAt": "2026-10-26T14:12:24.370Z",
+    "result": "available"
+  },
+  "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260626": {
+    "status": 200,
+    "checkedAt": "2026-10-26T14:12:24.372Z",
+    "result": "available"
+  },
+  "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260731": {
+    "status": 200,
+    "checkedAt": "2026-10-26T14:12:24.385Z",
+    "result": "available"
+  },
+  "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/251219": {
+    "status": 200,
+    "checkedAt": "2026-10-26T14:12:24.600Z",
+    "result": "available"
+  },
+  "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260109": {
+    "status": 200,
+    "checkedAt": "2026-10-26T14:12:24.639Z",
+    "result": "available"
+  },
+  "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260918": {
+    "status": 200,
+    "checkedAt": "2026-10-26T14:12:24.679Z",
+    "result": "available"
+  },
+  "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260724": {
+    "status": 200,
+    "checkedAt": "2026-10-26T14:12:24.754Z",
+    "result": "available"
+  },
+  "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260403": {
+    "status": 200,
+    "checkedAt": "2026-10-26T14:12:24.767Z",
+    "result": "available"
+  },
+  "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260904": {
+    "status": 200,
+    "checkedAt": "2026-10-26T14:12:24.796Z",
+    "result": "available"
+  },
+  "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260529": {
+    "status": 200,
+    "checkedAt": "2026-10-26T14:12:24.827Z",
+    "result": "available"
+  },
+  "https://www.youtube.com/watch?v=S7mfygW40Cs": {
+    "result": "inconclusive",
+    "checkedAt": "2026-10-26T14:12:24.830Z"
+  },
+  "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260123": {
+    "status": 200,
+    "checkedAt": "2026-10-26T14:12:24.982Z",
+    "result": "available"
+  },
+  "https://www.youtube.com/watch?v=QBddNulwhKo": {
+    "result": "inconclusive",
+    "checkedAt": "2026-10-26T14:12:25.038Z"
+  },
+  "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260327": {
+    "status": 200,
+    "checkedAt": "2026-10-26T14:12:25.089Z",
+    "result": "available"
+  },
+  "https://youtu.be/elPHkXNxi2g": {
+    "result": "inconclusive",
+    "checkedAt": "2026-10-26T14:12:25.110Z"
+  },
+  "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260102": {
+    "status": 200,
+    "checkedAt": "2026-10-26T14:12:25.123Z",
+    "result": "available"
+  },
+  "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/261002": {
+    "status": 200,
+    "checkedAt": "2026-10-26T14:12:25.155Z",
+    "result": "available"
+  },
+  "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260925": {
+    "status": 200,
+    "checkedAt": "2026-10-26T14:12:25.178Z",
+    "result": "available"
+  },
+  "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/251226": {
+    "status": 200,
+    "checkedAt": "2026-10-26T14:12:25.183Z",
+    "result": "available"
+  },
+  "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260313": {
+    "status": 200,
+    "checkedAt": "2026-10-26T14:12:25.207Z",
+    "result": "available"
+  },
+  "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/251031": {
+    "status": 200,
+    "checkedAt": "2026-10-26T14:12:25.211Z",
+    "result": "available"
+  },
+  "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260814": {
+    "status": 200,
+    "checkedAt": "2026-10-26T14:12:25.214Z",
+    "result": "available"
+  },
+  "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260619": {
+    "status": 200,
+    "checkedAt": "2026-10-26T14:12:25.240Z",
+    "result": "available"
+  },
+  "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/250919": {
+    "status": 200,
+    "checkedAt": "2026-10-26T14:12:25.306Z",
+    "result": "available"
+  },
+  "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/251205": {
+    "status": 200,
+    "checkedAt": "2026-10-26T14:12:25.328Z",
+    "result": "available"
+  },
+  "https://www.bbc.co.uk/learningenglish/english/features/learning-english-grammar/260310": {
+    "status": 200,
+    "checkedAt": "2026-10-26T14:12:25.372Z",
+    "result": "available"
+  },
+  "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260612": {
+    "status": 200,
+    "checkedAt": "2026-10-26T14:12:25.592Z",
+    "result": "available"
+  },
+  "https://www.youtube.com/@bbclearningenglish/search?query=Talking%20about%20music": {
+    "result": "inconclusive",
+    "checkedAt": "2026-10-26T14:12:25.659Z"
+  },
+  "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260227": {
+    "status": 200,
+    "checkedAt": "2026-10-26T14:12:25.706Z",
+    "result": "available"
+  },
+  "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260306": {
+    "status": 200,
+    "checkedAt": "2026-10-26T14:12:25.801Z",
+    "result": "available"
+  },
+  "https://www.youtube.com/@bbclearningenglish/search?query=Talking%20about%20technology": {
+    "result": "inconclusive",
+    "checkedAt": "2026-10-26T14:12:25.849Z"
+  },
+  "https://www.youtube.com/@bbclearningenglish/search?query=Talking%20about%20communication": {
+    "result": "inconclusive",
+    "checkedAt": "2026-10-26T14:12:25.894Z"
+  },
+  "https://www.youtube.com/@bbclearningenglish/search?query=Talking%20about%20the%20office": {
+    "result": "inconclusive",
+    "checkedAt": "2026-10-26T14:12:25.938Z"
+  },
+  "https://www.youtube.com/watch?v=j64n3KdIob0": {
+    "result": "inconclusive",
+    "checkedAt": "2026-10-26T14:12:25.982Z"
+  },
+  "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/240823": {
+    "status": 200,
+    "checkedAt": "2026-10-26T14:12:26.029Z",
+    "result": "available"
+  },
+  "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260710": {
+    "status": 200,
+    "checkedAt": "2026-10-26T14:12:26.034Z",
+    "result": "available"
+  },
+  "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/251128": {
+    "status": 200,
+    "checkedAt": "2026-10-26T14:12:26.038Z",
+    "result": "available"
+  },
+  "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english": {
+    "status": 200,
+    "checkedAt": "2026-10-26T14:12:26.075Z",
+    "result": "available"
+  },
+  "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english": {
+    "status": 200,
+    "checkedAt": "2026-10-26T14:12:26.112Z",
+    "result": "available"
+  },
+  "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/251024": {
+    "status": 200,
+    "checkedAt": "2026-10-26T14:12:26.130Z",
+    "result": "available"
+  },
+  "https://test-english.com/grammar-points/b1-b2/review-verb-tenses-b1-b2/": {
+    "result": "inconclusive",
+    "checkedAt": "2026-10-26T14:12:26.203Z"
+  },
+  "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260703": {
+    "status": 200,
+    "checkedAt": "2026-10-26T14:12:26.204Z",
+    "result": "available"
+  },
+  "https://www.youtube.com/@bbclearningenglish/search?query=Easy%20English%20Conversations": {
+    "result": "inconclusive",
+    "checkedAt": "2026-10-26T14:12:26.219Z"
+  },
+  "https://www.youtube.com/@bbclearningenglish/search?query=The%20English%20We%20Speak": {
+    "result": "inconclusive",
+    "checkedAt": "2026-10-26T14:12:26.221Z"
+  },
+  "https://www.youtube.com/@bbclearningenglish": {
+    "result": "inconclusive",
+    "checkedAt": "2026-10-26T14:12:26.270Z"
+  },
+  "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260206": {
+    "status": 200,
+    "checkedAt": "2026-10-26T14:12:26.319Z",
+    "result": "available"
+  },
+  "https://www.efset.org": {
+    "result": "inconclusive",
+    "checkedAt": "2026-10-26T14:12:26.332Z"
+  },
+  "https://www.bbc.co.uk/learningenglish/english/features/learning-english-grammar/260203": {
+    "status": 200,
+    "checkedAt": "2026-10-26T14:12:26.373Z",
+    "result": "available"
+  },
+  "https://test-english.com/grammar-points/a2/": {
+    "result": "inconclusive",
+    "checkedAt": "2026-10-26T14:12:26.412Z"
+  },
+  "https://test-english.com/grammar-points/a1/": {
+    "result": "inconclusive",
+    "checkedAt": "2026-10-26T14:12:26.413Z"
+  },
+  "https://test-english.com/grammar-points/": {
+    "result": "inconclusive",
+    "checkedAt": "2026-10-26T14:12:26.445Z"
+  },
+  "https://learningenglish.voanews.com": {
+    "result": "inconclusive",
+    "checkedAt": "2026-10-26T14:12:26.536Z"
+  },
+  "https://learnenglish.britishcouncil.org/skills/listening": {
+    "result": "inconclusive",
+    "checkedAt": "2026-10-26T14:12:26.542Z"
+  },
+  "https://www.newsinlevels.com": {
+    "result": "inconclusive",
+    "checkedAt": "2026-10-26T14:12:26.611Z"
+  },
+  "https://learnenglish.britishcouncil.org/grammar": {
+    "result": "inconclusive",
+    "checkedAt": "2026-10-26T14:12:26.617Z"
+  },
+  "https://dictionary.cambridge.org/dictionary/english-polish/": {
+    "result": "inconclusive",
+    "checkedAt": "2026-10-26T14:12:26.669Z"
+  },
+  "https://youglish.com": {
+    "result": "inconclusive",
+    "checkedAt": "2026-10-26T14:12:26.732Z"
+  },
+  "https://elsaspeak.com": {
+    "result": "inconclusive",
+    "checkedAt": "2026-10-26T14:12:26.896Z"
+  },
+  "https://www.busuu.com/": {
+    "result": "inconclusive",
+    "checkedAt": "2026-10-26T14:12:26.980Z"
+  },
+  "https://breakingnewsenglish.com": {
+    "result": "inconclusive",
+    "checkedAt": "2026-10-26T14:12:27.068Z"
+  },
+  "https://www.esl-lab.com": {
+    "result": "inconclusive",
+    "checkedAt": "2026-10-26T14:12:27.079Z"
+  },
+  "https://feeds.bbci.co.uk/learningenglish": {
+    "status": 200,
+    "checkedAt": "2026-10-26T14:12:27.288Z",
+    "result": "available"
+  }
+}

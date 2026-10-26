@@ -8,7 +8,12 @@
     "week": 1,
     "day": 1,
     "id": "material-0",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-26T14:12:23.996Z",
+      "result": "available"
+    }
   },
   {
     "name": "Real Easy English: Talking about yourself",
@@ -19,7 +24,12 @@
     "week": 1,
     "day": 2,
     "id": "material-1",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-26T14:12:24.299Z",
+      "result": "available"
+    }
   },
   {
     "name": "Real Easy English: Talking about old friends",
@@ -30,7 +40,12 @@
     "week": 1,
     "day": 3,
     "id": "material-2",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-26T14:12:23.923Z",
+      "result": "available"
+    }
   },
   {
     "name": "Real Easy English: Talking about speaking languages",
@@ -41,7 +56,12 @@
     "week": 1,
     "day": 4,
     "id": "material-3",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-26T14:12:24.355Z",
+      "result": "available"
+    }
   },
   {
     "name": "Real Easy English: Talking about birthdays",
@@ -52,7 +72,12 @@
     "week": 1,
     "day": 5,
     "id": "material-4",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-26T14:12:24.155Z",
+      "result": "available"
+    }
   },
   {
     "name": "BBC 6 Minute Grammar: czasy teraźniejsze",
@@ -63,7 +88,11 @@
     "week": 2,
     "day": 1,
     "id": "material-5",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "result": "inconclusive",
+      "checkedAt": "2026-10-26T14:12:23.388Z"
+    }
   },
   {
     "name": "Real Easy English: Talking about breakfast",
@@ -74,7 +103,12 @@
     "week": 2,
     "day": 2,
     "id": "material-6",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-26T14:12:23.950Z",
+      "result": "available"
+    }
   },
   {
     "name": "Real Easy English: Talking about dinner",
@@ -85,7 +119,12 @@
     "week": 2,
     "day": 3,
     "id": "material-7",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-26T14:12:24.135Z",
+      "result": "available"
+    }
   },
   {
     "name": "Real Easy English: Talking about naps",
@@ -96,7 +135,12 @@
     "week": 2,
     "day": 4,
     "id": "material-8",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-26T14:12:24.023Z",
+      "result": "available"
+    }
   },
   {
     "name": "Real Easy English: Talking about weekends",
@@ -107,7 +151,12 @@
     "week": 2,
     "day": 5,
     "id": "material-9",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-26T14:12:24.032Z",
+      "result": "available"
+    }
   },
   {
     "name": "Real Easy English: Talking about your family tree",
@@ -118,7 +167,12 @@
     "week": 3,
     "day": 1,
     "id": "material-10",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-26T14:12:24.754Z",
+      "result": "available"
+    }
   },
   {
     "name": "Real Easy English: Talking about animals",
@@ -129,7 +183,12 @@
     "week": 3,
     "day": 2,
     "id": "material-11",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-26T14:12:24.982Z",
+      "result": "available"
+    }
   },
   {
     "name": "Real Easy English: Talking about laughing",
@@ -140,7 +199,12 @@
     "week": 3,
     "day": 3,
     "id": "material-12",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-26T14:12:24.600Z",
+      "result": "available"
+    }
   },
   {
     "name": "Real Easy English: Talking about colours",
@@ -151,7 +215,12 @@
     "week": 3,
     "day": 4,
     "id": "material-13",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-26T14:12:24.639Z",
+      "result": "available"
+    }
   },
   {
     "name": "Real Easy English: Talking about your hair",
@@ -162,7 +231,12 @@
     "week": 3,
     "day": 5,
     "id": "material-14",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-26T14:12:24.192Z",
+      "result": "available"
+    }
   },
   {
     "name": "Real Easy English: Talking about coffee",
@@ -173,7 +247,12 @@
     "week": 4,
     "day": 1,
     "id": "material-15",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-26T14:12:24.190Z",
+      "result": "available"
+    }
   },
   {
     "name": "Real Easy English: Talking about desserts",
@@ -184,7 +263,12 @@
     "week": 4,
     "day": 2,
     "id": "material-16",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-26T14:12:24.274Z",
+      "result": "available"
+    }
   },
   {
     "name": "Real Easy English: Talking about spicy food",
@@ -195,7 +279,12 @@
     "week": 4,
     "day": 3,
     "id": "material-17",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-26T14:12:24.331Z",
+      "result": "available"
+    }
   },
   {
     "name": "Real Easy English: Talking about chocolate",
@@ -206,7 +295,12 @@
     "week": 4,
     "day": 4,
     "id": "material-18",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-26T14:12:25.207Z",
+      "result": "available"
+    }
   },
   {
     "name": "Real Easy English: Talking about drinks",
@@ -217,7 +311,12 @@
     "week": 4,
     "day": 5,
     "id": "material-19",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-26T14:12:24.329Z",
+      "result": "available"
+    }
   },
   {
     "name": "Real Easy English: Talking about housework",
@@ -228,7 +327,12 @@
     "week": 5,
     "day": 1,
     "id": "material-20",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-26T14:12:24.370Z",
+      "result": "available"
+    }
   },
   {
     "name": "Real Easy English: Talking about moving house",
@@ -239,7 +343,12 @@
     "week": 5,
     "day": 2,
     "id": "material-21",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-26T14:12:24.372Z",
+      "result": "available"
+    }
   },
   {
     "name": "Real Easy English: Talking about cities",
@@ -250,7 +359,12 @@
     "week": 5,
     "day": 3,
     "id": "material-22",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-26T14:12:24.385Z",
+      "result": "available"
+    }
   },
   {
     "name": "Real Easy English: Talking about water",
@@ -261,7 +375,12 @@
     "week": 5,
     "day": 4,
     "id": "material-23",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-26T14:12:25.089Z",
+      "result": "available"
+    }
   },
   {
     "name": "Real Easy English: Talking about winter",
@@ -272,7 +391,12 @@
     "week": 5,
     "day": 5,
     "id": "material-24",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-26T14:12:25.328Z",
+      "result": "available"
+    }
   },
   {
     "name": "BBC Grammar: Stories from the past (czasy przeszłe)",
@@ -283,7 +407,12 @@
     "week": 6,
     "day": 1,
     "id": "material-25",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-26T14:12:25.372Z",
+      "result": "available"
+    }
   },
   {
     "name": "Real Easy English: Talking about your year",
@@ -294,7 +423,12 @@
     "week": 6,
     "day": 2,
     "id": "material-26",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-26T14:12:25.183Z",
+      "result": "available"
+    }
   },
   {
     "name": "Real Easy English: Talking about hard jobs",
@@ -305,7 +439,12 @@
     "week": 6,
     "day": 3,
     "id": "material-27",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-26T14:12:24.679Z",
+      "result": "available"
+    }
   },
   {
     "name": "Real Easy English: Talking about books",
@@ -316,7 +455,12 @@
     "week": 6,
     "day": 4,
     "id": "material-28",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-26T14:12:24.767Z",
+      "result": "available"
+    }
   },
   {
     "name": "Real Easy English: Talking about complaining",
@@ -327,7 +471,12 @@
     "week": 6,
     "day": 5,
     "id": "material-29",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-26T14:12:24.796Z",
+      "result": "available"
+    }
   },
   {
     "name": "Real Easy English: Talking about days out",
@@ -338,7 +487,11 @@
     "week": 7,
     "day": 1,
     "id": "material-30",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "result": "inconclusive",
+      "checkedAt": "2026-10-26T14:12:24.830Z"
+    }
   },
   {
     "name": "Real Easy English: Talking about the beach",
@@ -349,7 +502,12 @@
     "week": 7,
     "day": 2,
     "id": "material-31",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-26T14:12:24.827Z",
+      "result": "available"
+    }
   },
   {
     "name": "Real Easy English: Talking about playing sports",
@@ -360,7 +518,12 @@
     "week": 7,
     "day": 3,
     "id": "material-32",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-26T14:12:25.706Z",
+      "result": "available"
+    }
   },
   {
     "name": "Real Easy English: Talking about hot weather",
@@ -371,7 +534,12 @@
     "week": 7,
     "day": 4,
     "id": "material-33",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-26T14:12:25.592Z",
+      "result": "available"
+    }
   },
   {
     "name": "Real Easy English: Talking about seasons",
@@ -382,7 +550,11 @@
     "week": 7,
     "day": 5,
     "id": "material-34",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "result": "inconclusive",
+      "checkedAt": "2026-10-26T14:12:25.038Z"
+    }
   },
   {
     "name": "BBC: The Future Tense",
@@ -393,7 +565,11 @@
     "week": 8,
     "day": 1,
     "id": "material-35",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "result": "inconclusive",
+      "checkedAt": "2026-10-26T14:12:25.110Z"
+    }
   },
   {
     "name": "Real Easy English: Talking about New Year's resolutions",
@@ -404,7 +580,12 @@
     "week": 8,
     "day": 2,
     "id": "material-36",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-26T14:12:25.123Z",
+      "result": "available"
+    }
   },
   {
     "name": "Real Easy English: Talking about airports",
@@ -415,7 +596,12 @@
     "week": 8,
     "day": 3,
     "id": "material-37",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-26T14:12:25.155Z",
+      "result": "available"
+    }
   },
   {
     "name": "Real Easy English: Talking about autumn",
@@ -426,7 +612,12 @@
     "week": 8,
     "day": 4,
     "id": "material-38",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-26T14:12:25.178Z",
+      "result": "available"
+    }
   },
   {
     "name": "Real Easy English: Talking about Halloween",
@@ -437,7 +628,12 @@
     "week": 8,
     "day": 5,
     "id": "material-39",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-26T14:12:25.211Z",
+      "result": "available"
+    }
   },
   {
     "name": "Real Easy English: Talking about being grumpy",
@@ -448,7 +644,12 @@
     "week": 9,
     "day": 1,
     "id": "material-40",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-26T14:12:25.214Z",
+      "result": "available"
+    }
   },
   {
     "name": "Real Easy English: Talking about hates",
@@ -459,7 +660,12 @@
     "week": 9,
     "day": 2,
     "id": "material-41",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-26T14:12:25.240Z",
+      "result": "available"
+    }
   },
   {
     "name": "Real Easy English: Talking about rain",
@@ -470,7 +676,12 @@
     "week": 9,
     "day": 3,
     "id": "material-42",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-26T14:12:25.801Z",
+      "result": "available"
+    }
   },
   {
     "name": "Real Easy English: Talking about greed",
@@ -481,7 +692,12 @@
     "week": 9,
     "day": 4,
     "id": "material-43",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-26T14:12:26.130Z",
+      "result": "available"
+    }
   },
   {
     "name": "Real Easy English: Talking about the environment",
@@ -492,7 +708,12 @@
     "week": 9,
     "day": 5,
     "id": "material-44",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-26T14:12:26.029Z",
+      "result": "available"
+    }
   },
   {
     "name": "Real Easy English: Talking about saving money",
@@ -503,7 +724,12 @@
     "week": 10,
     "day": 1,
     "id": "material-45",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-26T14:12:25.306Z",
+      "result": "available"
+    }
   },
   {
     "name": "Real Easy English: Talking about extreme sports",
@@ -514,7 +740,12 @@
     "week": 10,
     "day": 2,
     "id": "material-46",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-26T14:12:26.319Z",
+      "result": "available"
+    }
   },
   {
     "name": "Real Easy English: Talking about climate change",
@@ -525,7 +756,12 @@
     "week": 10,
     "day": 3,
     "id": "material-47",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-26T14:12:26.034Z",
+      "result": "available"
+    }
   },
   {
     "name": "Real Easy English: Talking about watching sports",
@@ -536,7 +772,12 @@
     "week": 10,
     "day": 4,
     "id": "material-48",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-26T14:12:26.038Z",
+      "result": "available"
+    }
   },
   {
     "name": "Talking about music",
@@ -547,7 +788,11 @@
     "week": 10,
     "day": 5,
     "id": "material-49",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "result": "inconclusive",
+      "checkedAt": "2026-10-26T14:12:25.659Z"
+    }
   },
   {
     "name": "Real Easy English: Talking about phone habits",
@@ -558,7 +803,12 @@
     "week": 11,
     "day": 1,
     "id": "material-50",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-26T14:12:26.204Z",
+      "result": "available"
+    }
   },
   {
     "name": "BBC Grammar: What have you been up to? (Present Perfect)",
@@ -569,7 +819,12 @@
     "week": 11,
     "day": 2,
     "id": "material-51",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-26T14:12:26.373Z",
+      "result": "available"
+    }
   },
   {
     "name": "Talking about technology",
@@ -580,7 +835,11 @@
     "week": 11,
     "day": 3,
     "id": "material-52",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "result": "inconclusive",
+      "checkedAt": "2026-10-26T14:12:25.849Z"
+    }
   },
   {
     "name": "Talking about communication",
@@ -591,7 +850,11 @@
     "week": 11,
     "day": 4,
     "id": "material-53",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "result": "inconclusive",
+      "checkedAt": "2026-10-26T14:12:25.894Z"
+    }
   },
   {
     "name": "Talking about the office",
@@ -602,7 +865,11 @@
     "week": 11,
     "day": 5,
     "id": "material-54",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "result": "inconclusive",
+      "checkedAt": "2026-10-26T14:12:25.938Z"
+    }
   },
   {
     "name": "Real Easy English: Talking about your brain",
@@ -613,7 +880,11 @@
     "week": 12,
     "day": 1,
     "id": "material-55",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "result": "inconclusive",
+      "checkedAt": "2026-10-26T14:12:25.982Z"
+    }
   },
   {
     "name": "Test-English: przegląd czasów",
@@ -624,7 +895,11 @@
     "week": 12,
     "day": 2,
     "id": "material-56",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "result": "inconclusive",
+      "checkedAt": "2026-10-26T14:12:26.203Z"
+    }
   },
   {
     "name": "BBC Grammar: Stories from the past (powtórka)",
@@ -635,7 +910,12 @@
     "week": 12,
     "day": 3,
     "id": "material-57",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-26T14:12:25.372Z",
+      "result": "available"
+    }
   },
   {
     "name": "BBC 6 Minute English",
@@ -646,7 +926,12 @@
     "week": 12,
     "day": 4,
     "id": "material-58",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-26T14:12:26.075Z",
+      "result": "available"
+    }
   },
   {
     "name": "EF SET: sprawdzenie poziomu",
@@ -657,7 +942,11 @@
     "week": 12,
     "day": 5,
     "id": "material-59",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "result": "inconclusive",
+      "checkedAt": "2026-10-26T14:12:26.332Z"
+    }
   },
   {
     "name": "BBC Learning English — wszystkie programy",
@@ -668,7 +957,12 @@
     "week": 0,
     "day": 0,
     "id": "material-60",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-26T14:12:27.288Z",
+      "result": "available"
+    }
   },
   {
     "name": "BBC Real Easy English — seria",
@@ -679,7 +973,12 @@
     "week": 0,
     "day": 0,
     "id": "material-61",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-26T14:12:26.112Z",
+      "result": "available"
+    }
   },
   {
     "name": "BBC 6 Minute English — seria",
@@ -690,7 +989,12 @@
     "week": 0,
     "day": 0,
     "id": "material-62",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-26T14:12:26.075Z",
+      "result": "available"
+    }
   },
   {
     "name": "BBC The English We Speak",
@@ -701,7 +1005,11 @@
     "week": 0,
     "day": 0,
     "id": "material-63",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "result": "inconclusive",
+      "checkedAt": "2026-10-26T14:12:26.221Z"
+    }
   },
   {
     "name": "Easy English Conversations — BBC",
@@ -712,7 +1020,11 @@
     "week": 0,
     "day": 0,
     "id": "material-64",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "result": "inconclusive",
+      "checkedAt": "2026-10-26T14:12:26.219Z"
+    }
   },
   {
     "name": "BBC Learning English na YouTube",
@@ -723,7 +1035,11 @@
     "week": 0,
     "day": 0,
     "id": "material-65",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "result": "inconclusive",
+      "checkedAt": "2026-10-26T14:12:26.270Z"
+    }
   },
   {
     "name": "News in Levels",
@@ -734,7 +1050,11 @@
     "week": 0,
     "day": 0,
     "id": "material-66",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "result": "inconclusive",
+      "checkedAt": "2026-10-26T14:12:26.611Z"
+    }
   },
   {
     "name": "VOA Learning English",
@@ -745,7 +1065,11 @@
     "week": 0,
     "day": 0,
     "id": "material-67",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "result": "inconclusive",
+      "checkedAt": "2026-10-26T14:12:26.536Z"
+    }
   },
   {
     "name": "British Council Listening",
@@ -756,7 +1080,11 @@
     "week": 0,
     "day": 0,
     "id": "material-68",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "result": "inconclusive",
+      "checkedAt": "2026-10-26T14:12:26.542Z"
+    }
   },
   {
     "name": "Randall ESL Cyber Listening Lab",
@@ -767,7 +1095,11 @@
     "week": 0,
     "day": 0,
     "id": "material-69",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "result": "inconclusive",
+      "checkedAt": "2026-10-26T14:12:27.079Z"
+    }
   },
   {
     "name": "Breaking News English — news z audio",
@@ -778,7 +1110,11 @@
     "week": 0,
     "day": 0,
     "id": "material-70",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "result": "inconclusive",
+      "checkedAt": "2026-10-26T14:12:27.068Z"
+    }
   },
   {
     "name": "Test-English A1",
@@ -789,7 +1125,11 @@
     "week": 0,
     "day": 0,
     "id": "material-71",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "result": "inconclusive",
+      "checkedAt": "2026-10-26T14:12:26.413Z"
+    }
   },
   {
     "name": "Test-English A2",
@@ -800,7 +1140,11 @@
     "week": 0,
     "day": 0,
     "id": "material-72",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "result": "inconclusive",
+      "checkedAt": "2026-10-26T14:12:26.412Z"
+    }
   },
   {
     "name": "Test-English — wszystkie poziomy",
@@ -811,7 +1155,11 @@
     "week": 0,
     "day": 0,
     "id": "material-73",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "result": "inconclusive",
+      "checkedAt": "2026-10-26T14:12:26.445Z"
+    }
   },
   {
     "name": "British Council Grammar",
@@ -822,7 +1170,11 @@
     "week": 0,
     "day": 0,
     "id": "material-74",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "result": "inconclusive",
+      "checkedAt": "2026-10-26T14:12:26.617Z"
+    }
   },
   {
     "name": "Cambridge Dictionary EN–PL",
@@ -833,7 +1185,11 @@
     "week": 0,
     "day": 0,
     "id": "material-75",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "result": "inconclusive",
+      "checkedAt": "2026-10-26T14:12:26.669Z"
+    }
   },
   {
     "name": "YouGlish — wymowa z prawdziwych wypowiedzi",
@@ -844,7 +1200,11 @@
     "week": 0,
     "day": 0,
     "id": "material-76",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "result": "inconclusive",
+      "checkedAt": "2026-10-26T14:12:26.732Z"
+    }
   },
   {
     "name": "ELSA Speak — wymowa",
@@ -855,7 +1215,11 @@
     "week": 0,
     "day": 0,
     "id": "material-77",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "result": "inconclusive",
+      "checkedAt": "2026-10-26T14:12:26.896Z"
+    }
   },
   {
     "name": "Busuu — kurs",
@@ -866,6 +1230,10 @@
     "week": 0,
     "day": 0,
     "id": "material-78",
-    "verification": "inherited-unverified"
+    "verification": "inherited-unverified",
+    "linkCheck": {
+      "result": "inconclusive",
+      "checkedAt": "2026-10-26T14:12:26.980Z"
+    }
   }
 ]
