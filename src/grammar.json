@@ -62,7 +62,62 @@
     ],
     "id": "grammar-0",
     "name": "Present Simple",
-    "level": "A1"
+    "level": "A1",
+    "detail": {
+      "use": [
+        "nawyki i rutyna: I get up at 7.",
+        "stałe fakty: Water boils at 100°C.",
+        "stany i upodobania: I like coffee.",
+        "rozkłady jazdy: The train leaves at 8."
+      ],
+      "positive": "I/you/we/they + V. He/she/it + V+s (She works).",
+      "negative": "don't / doesn't + V (He doesn't work).",
+      "question": "Do / Does + podmiot + V? (Does she work here?)",
+      "signals": "every day, usually, often, always, never, on Mondays",
+      "examples": [
+        "I work every day. — Pracuję codziennie.",
+        "She doesn't like tea. — Ona nie lubi herbaty.",
+        "Do you speak English? — Czy mówisz po angielsku?"
+      ],
+      "tip": "Końcówkę -s dodajesz tylko w twierdzeniu. Po does czasownik jest bez -s: Does she work (nie: Does she works). Polacy często pomijają -s w he/she/it."
+    },
+    "external": [
+      {
+        "name": "Test-English: lekcja",
+        "url": "https://test-english.com/grammar-points/a1/present-simple/",
+        "search": false
+      },
+      {
+        "name": "BBC wideo: czasy teraźniejsze",
+        "url": "https://www.youtube.com/watch?v=X6LuWwb9whM",
+        "search": false
+      },
+      {
+        "name": "EF Polska — wyjaśnienie po polsku",
+        "url": "https://www.ef.pl/przewodnik-po-angielskim/gramatyka-angielska/czas-present-simple/"
+      }
+    ],
+    "tokens": [
+      [
+        [
+          "She",
+          "S",
+          "ona (podmiot: kto?)"
+        ],
+        [
+          "works",
+          "V(s)",
+          "pracuje (czasownik + s, bo she)"
+        ],
+        [
+          "every day",
+          "czas",
+          "codziennie"
+        ]
+      ],
+      "Ona pracuje codziennie.",
+      "Bierzesz czasownik (work). Przy he, she, it dodajesz -s. Przy I, you, we, they zostaje bez zmian."
+    ]
   },
   {
     "use": [
@@ -127,7 +182,66 @@
     ],
     "id": "grammar-1",
     "name": "Present Continuous",
-    "level": "A1"
+    "level": "A1",
+    "detail": {
+      "use": [
+        "czynność dzieje się w tej chwili: I'm studying now.",
+        "sytuacja tymczasowa: I'm living in Gdańsk this year.",
+        "ustalone plany: We're meeting at 6."
+      ],
+      "positive": "am/is/are + V-ing (She is reading).",
+      "negative": "am/is/are + not + V-ing (He isn't sleeping).",
+      "question": "Am/Is/Are + podmiot + V-ing? (What are you doing?)",
+      "signals": "now, at the moment, today, this week, Look!",
+      "examples": [
+        "I'm learning English now. — Teraz uczę się angielskiego.",
+        "He isn't sleeping. — On nie śpi.",
+        "What are you doing? — Co robisz?"
+      ],
+      "tip": "Czasowniki stanu (know, like, want, love, understand) zwykle nie mają -ing: I know (nie: I'm knowing)."
+    },
+    "external": [
+      {
+        "name": "Test-English: szukaj lekcji",
+        "url": "https://test-english.com/?s=present%20continuous",
+        "search": true
+      },
+      {
+        "name": "BBC wideo: czasy teraźniejsze",
+        "url": "https://www.youtube.com/watch?v=X6LuWwb9whM",
+        "search": false
+      },
+      {
+        "name": "EF Polska — wyjaśnienie po polsku",
+        "url": "https://www.ef.pl/przewodnik-po-angielskim/gramatyka-angielska/czas-present-continuous/"
+      }
+    ],
+    "tokens": [
+      [
+        [
+          "She",
+          "S",
+          "ona"
+        ],
+        [
+          "is",
+          "aux",
+          "jest (to be: am/is/are)"
+        ],
+        [
+          "reading",
+          "V-ing",
+          "czytając (czasownik read + ing)"
+        ],
+        [
+          "now",
+          "czas",
+          "teraz"
+        ]
+      ],
+      "Ona czyta teraz.",
+      "Bierzesz am/is/are (to be) i do czasownika dodajesz -ing. To pokazuje, że dzieje się TERAZ."
+    ]
   },
   {
     "use": [
@@ -190,7 +304,61 @@
     ],
     "id": "grammar-2",
     "name": "Past Simple",
-    "level": "A2"
+    "level": "A2",
+    "detail": {
+      "use": [
+        "zakończone zdarzenia z określonym czasem: I met her in 2020.",
+        "kolejne wydarzenia w opowieści: I got up, ate breakfast and left.",
+        "dawne nawyki: We played football every day."
+      ],
+      "positive": "czasowniki regularne + -ed (worked), nieregularne mają własną formę II (go → went, see → saw).",
+      "negative": "did not (didn't) + V (She didn't go).",
+      "question": "Did + podmiot + V? (Did you see it?)",
+      "signals": "yesterday, last week, two days ago, in 2020, when",
+      "examples": [
+        "I watched a film yesterday. — Wczoraj obejrzałem film.",
+        "She didn't call me. — Ona do mnie nie zadzwoniła.",
+        "Did you see that? — Widziałeś to?"
+      ],
+      "tip": "Po did / didn't wracamy do podstawowej formy czasownika: Did you go? (nie: Did you went?). Nieregularne formy (went, saw, ate, had) trzeba zapamiętać, dodaj je do notatnika."
+    },
+    "external": [
+      {
+        "name": "Test-English: szukaj lekcji",
+        "url": "https://test-english.com/?s=past%20simple",
+        "search": true
+      },
+      {
+        "name": "BBC: szukaj wideo",
+        "url": "https://www.youtube.com/@bbclearningenglish/search?query=past%20simple",
+        "search": true
+      },
+      {
+        "name": "EF Polska — wyjaśnienie po polsku",
+        "url": "https://www.ef.pl/przewodnik-po-angielskim/gramatyka-angielska/czas-past-simple/"
+      }
+    ],
+    "tokens": [
+      [
+        [
+          "She",
+          "S",
+          "ona"
+        ],
+        [
+          "worked",
+          "V2",
+          "pracowała (2. forma: work + ed)"
+        ],
+        [
+          "yesterday",
+          "czas",
+          "wczoraj"
+        ]
+      ],
+      "Ona pracowała wczoraj.",
+      "Bierzesz czasownik w 2. formie (V2): regularne dostają -ed, nieregularne mają własną formę (go → went)."
+    ]
   },
   {
     "use": [
@@ -253,7 +421,66 @@
     ],
     "id": "grammar-3",
     "name": "Past Continuous",
-    "level": "A2"
+    "level": "A2",
+    "detail": {
+      "use": [
+        "czynność w toku w danym momencie przeszłości: At 8 I was sleeping.",
+        "tło dla innego zdarzenia: I was walking when it started to rain.",
+        "dwie czynności naraz: She was cooking while he was reading."
+      ],
+      "positive": "was/were + V-ing (They were playing).",
+      "negative": "wasn't / weren't + V-ing.",
+      "question": "Was / Were + podmiot + V-ing? (What were you doing?)",
+      "signals": "at 8 o'clock yesterday, while, when, all evening",
+      "examples": [
+        "I was sleeping at ten. — O dziesiątej spałem.",
+        "What were you doing at 6? — Co robiłeś o 6?",
+        "I was reading when you called. — Czytałem, gdy zadzwoniłeś."
+      ],
+      "tip": "While łączy się zwykle z czynnością trwającą (was reading), when z krótkim zdarzeniem (called)."
+    },
+    "external": [
+      {
+        "name": "Test-English: szukaj lekcji",
+        "url": "https://test-english.com/?s=past%20continuous",
+        "search": true
+      },
+      {
+        "name": "BBC: szukaj wideo",
+        "url": "https://www.youtube.com/@bbclearningenglish/search?query=past%20continuous",
+        "search": true
+      },
+      {
+        "name": "EF Polska — wyjaśnienie po polsku",
+        "url": "https://www.ef.pl/przewodnik-po-angielskim/gramatyka-angielska/czas-past-continuous/"
+      }
+    ],
+    "tokens": [
+      [
+        [
+          "She",
+          "S",
+          "ona"
+        ],
+        [
+          "was",
+          "aux",
+          "była (was/were)"
+        ],
+        [
+          "reading",
+          "V-ing",
+          "czytając (read + ing)"
+        ],
+        [
+          "at 8",
+          "czas",
+          "o ósmej"
+        ]
+      ],
+      "Ona czytała o ósmej.",
+      "was/were + czasownik z -ing. Coś TRWAŁO w jakimś momencie w przeszłości."
+    ]
   },
   {
     "use": [
@@ -316,7 +543,67 @@
     ],
     "id": "grammar-4",
     "name": "Present Perfect",
-    "level": "B1"
+    "level": "B1",
+    "detail": {
+      "use": [
+        "doświadczenie bez podania kiedy: I have been to London.",
+        "skutek teraz: I have lost my keys (nie mam ich).",
+        "coś trwa od przeszłości do teraz: I've lived here for 3 years.",
+        "świeże wiadomości: She has just called."
+      ],
+      "positive": "have/has + V3 (III forma: finished, gone, seen).",
+      "negative": "haven't / hasn't + V3.",
+      "question": "Have / Has + podmiot + V3? (Have you ever been to Spain?)",
+      "signals": "ever, never, already, yet, just, for, since, so far",
+      "examples": [
+        "I have finished my homework. — Skończyłem pracę domową.",
+        "Have you ever been to Spain? — Czy byłeś kiedyś w Hiszpanii?",
+        "She has lived here since 2020. — Mieszka tu od 2020."
+      ],
+      "tip": "Nie łącz z konkretną datą z przeszłości: I saw him yesterday (Past Simple), nie: I have seen him yesterday. Polskie 'od' to since (punkt w czasie) lub for (okres)."
+    },
+    "external": [
+      {
+        "name": "Test-English: szukaj lekcji",
+        "url": "https://test-english.com/?s=present%20perfect",
+        "search": true
+      },
+      {
+        "name": "BBC wideo: czasy teraźniejsze",
+        "url": "https://www.youtube.com/watch?v=X6LuWwb9whM",
+        "search": false
+      },
+      {
+        "name": "EF Polska — wyjaśnienie po polsku",
+        "url": "https://www.ef.pl/przewodnik-po-angielskim/gramatyka-angielska/czas-present-perfect/"
+      }
+    ],
+    "tokens": [
+      [
+        [
+          "She",
+          "S",
+          "ona"
+        ],
+        [
+          "has",
+          "aux",
+          "ma (have/has)"
+        ],
+        [
+          "finished",
+          "V3",
+          "skończyła (3. forma: finish + ed)"
+        ],
+        [
+          "her work",
+          "reszta",
+          "swoją pracę"
+        ]
+      ],
+      "Ona skończyła swoją pracę (i efekt jest teraz).",
+      "Bierzesz have/has i trzecią formę czasownika (V3). Dla regularnych czasowników V3 to czasownik + ed."
+    ]
   },
   {
     "use": [
@@ -379,7 +666,79 @@
     ],
     "id": "grammar-5",
     "name": "Future: will, going to, arrangements",
-    "level": "A2"
+    "level": "A2",
+    "detail": {
+      "use": [
+        "plany i zamiary już istniejące: I'm going to study tonight.",
+        "przewidywanie na podstawie tego, co widać: Look at the sky, it's going to rain."
+      ],
+      "positive": "am/is/are + going to + V.",
+      "negative": "am/is/are + not + going to + V.",
+      "question": "Am/Is/Are + podmiot + going to + V? (Are you going to come?)",
+      "signals": "tonight, tomorrow, this weekend, next year",
+      "examples": [
+        "I'm going to visit my friend. — Zamierzam odwiedzić przyjaciela.",
+        "We aren't going to buy it. — Nie zamierzamy tego kupić.",
+        "Are you going to study? — Zamierzasz się uczyć?"
+      ],
+      "tip": "Will to decyzja teraz, going to to plan, który już masz. Masz plan na weekend? Mów: I'm going to..."
+    },
+    "external": [
+      {
+        "name": "Test-English: szukaj lekcji",
+        "url": "https://test-english.com/?s=will%20shall%20future",
+        "search": true
+      },
+      {
+        "name": "BBC wideo: The Future Tense",
+        "url": "https://youtu.be/elPHkXNxi2g",
+        "search": false
+      },
+      {
+        "name": "EF Polska — wyjaśnienie po polsku",
+        "url": "https://www.ef.pl/przewodnik-po-angielskim/gramatyka-angielska/czas-future-simple/"
+      },
+      {
+        "name": "Test-English: szukaj lekcji",
+        "url": "https://test-english.com/?s=be%20going%20to",
+        "search": true
+      },
+      {
+        "name": "BBC wideo: The Future Tense",
+        "url": "https://youtu.be/elPHkXNxi2g",
+        "search": false
+      },
+      {
+        "name": "EF Polska — wyjaśnienie po polsku",
+        "url": "https://www.ef.pl/przewodnik-po-angielskim/gramatyka-angielska/czas-przyszly-w-jezyku-angielskim/"
+      }
+    ],
+    "tokens": [
+      [
+        [
+          "She",
+          "S",
+          "ona"
+        ],
+        [
+          "is going to",
+          "aux",
+          "zamierza (to be + going to)"
+        ],
+        [
+          "read",
+          "V",
+          "czytać (czasownik BEZ zmian)"
+        ],
+        [
+          "tonight",
+          "czas",
+          "dziś wieczorem"
+        ]
+      ],
+      "Ona zamierza czytać dziś wieczorem.",
+      "am/is/are + going to + czasownik (V). Mówisz o planie, który już masz."
+    ]
   },
   {
     "use": [
@@ -789,7 +1148,65 @@
         "Po been stosujemy -ing."
       ]
     ],
-    "compare": "Present Perfect Simple podkreśla rezultat lub liczbę, a Continuous czas trwania lub przebieg. I have read two books / I have been reading all evening."
+    "compare": "Present Perfect Simple podkreśla rezultat lub liczbę, a Continuous czas trwania lub przebieg. I have read two books / I have been reading all evening.",
+    "detail": {
+      "use": [
+        "czynność trwa od jakiegoś czasu do teraz, liczy się czas trwania: I've been learning for two weeks.",
+        "niedawno skończona czynność z widocznym skutkiem: I'm tired, I've been running."
+      ],
+      "positive": "have/has + been + V-ing.",
+      "negative": "haven't / hasn't + been + V-ing.",
+      "question": "Have / Has + podmiot + been + V-ing? (How long have you been waiting?)",
+      "signals": "for, since, all day, lately, recently, how long",
+      "examples": [
+        "I've been studying for an hour. — Uczę się od godziny.",
+        "It has been raining all day. — Pada cały dzień.",
+        "How long have you been waiting? — Jak długo czekasz?"
+      ],
+      "tip": "Liczysz wyniki? Użyj Present Perfect: I've read 3 books. Liczy się czas trwania? Użyj continuous: I've been reading for 3 hours."
+    },
+    "external": [
+      {
+        "name": "Test-English: przegląd czasów (B2)",
+        "url": "https://test-english.com/grammar-points/b1-b2/review-verb-tenses-b1-b2/",
+        "search": false
+      },
+      {
+        "name": "BBC: szukaj wideo",
+        "url": "https://www.youtube.com/@bbclearningenglish/search?query=present%20perfect%20continuous",
+        "search": true
+      },
+      {
+        "name": "EF Polska — wyjaśnienie po polsku",
+        "url": "https://www.ef.pl/przewodnik-po-angielskim/gramatyka-angielska/czas-present-perfect-continuous/"
+      }
+    ],
+    "tokens": [
+      [
+        [
+          "She",
+          "S",
+          "ona"
+        ],
+        [
+          "has been",
+          "aux",
+          "od jakiegoś czasu (has + been)"
+        ],
+        [
+          "reading",
+          "V-ing",
+          "czyta (read + ing)"
+        ],
+        [
+          "for an hour",
+          "czas",
+          "od godziny"
+        ]
+      ],
+      "Ona czyta od godziny.",
+      "has/have + been + czasownik z -ing. Pokazuje, jak DŁUGO coś trwa do teraz."
+    ]
   },
   {
     "id": "grammar-13",
@@ -838,7 +1255,65 @@
         "Punkt odniesienia jest w przeszłości."
       ]
     ],
-    "compare": "Past Simple przedstawia kolejne zdarzenia; Past Perfect pomaga cofnąć się do wcześniejszego zdarzenia. Nie jest potrzebny do każdej wcześniejszej czynności."
+    "compare": "Past Simple przedstawia kolejne zdarzenia; Past Perfect pomaga cofnąć się do wcześniejszego zdarzenia. Nie jest potrzebny do każdej wcześniejszej czynności.",
+    "detail": {
+      "use": [
+        "czynność wcześniejsza niż inna w przeszłości: I had left before he arrived.",
+        "wyjaśnienie powodu: I was late because I had missed the bus."
+      ],
+      "positive": "had + V3 (dla wszystkich osób).",
+      "negative": "hadn't + V3.",
+      "question": "Had + podmiot + V3? (Had you eaten?)",
+      "signals": "before, after, already, by the time, when",
+      "examples": [
+        "The film had started when we arrived. — Film już się zaczął, gdy dotarliśmy.",
+        "I hadn't seen him before. — Nie widziałem go wcześniej.",
+        "Had you finished? — Czy skończyłeś?"
+      ],
+      "tip": "Używaj tylko, gdy w zdaniu są dwie czynności z przeszłości i trzeba pokazać, która była pierwsza. Przy jednej czynności wystarczy Past Simple."
+    },
+    "external": [
+      {
+        "name": "Test-English: szukaj lekcji",
+        "url": "https://test-english.com/?s=past%20perfect",
+        "search": true
+      },
+      {
+        "name": "Test-English: przegląd czasów (B2)",
+        "url": "https://test-english.com/grammar-points/b1-b2/review-verb-tenses-b1-b2/",
+        "search": false
+      },
+      {
+        "name": "EF Polska — wyjaśnienie po polsku",
+        "url": "https://www.ef.pl/przewodnik-po-angielskim/gramatyka-angielska/czas-past-perfect/"
+      }
+    ],
+    "tokens": [
+      [
+        [
+          "She",
+          "S",
+          "ona"
+        ],
+        [
+          "had",
+          "aux",
+          "miała / już (had)"
+        ],
+        [
+          "left",
+          "V3",
+          "wyszła (3. forma: leave → left)"
+        ],
+        [
+          "before I came",
+          "czas",
+          "zanim przyszedłem"
+        ]
+      ],
+      "Ona już wyszła, zanim przyszedłem.",
+      "had + V3. Używasz, gdy jedna rzecz w przeszłości stała się WCZEŚNIEJ niż druga."
+    ]
   },
   {
     "id": "grammar-14",
@@ -888,7 +1363,65 @@
         "Punkt odniesienia jest w przeszłości."
       ]
     ],
-    "compare": "Past Perfect Simple kładzie nacisk na zakończenie, a Continuous na trwanie: I had written the report / I had been writing the report for two hours."
+    "compare": "Past Perfect Simple kładzie nacisk na zakończenie, a Continuous na trwanie: I had written the report / I had been writing the report for two hours.",
+    "detail": {
+      "use": [
+        "czynność trwała do momentu w przeszłości: I had been waiting for an hour when she came.",
+        "powód stanu w przeszłości: His eyes were red, he had been crying."
+      ],
+      "positive": "had + been + V-ing.",
+      "negative": "hadn't + been + V-ing.",
+      "question": "Had + podmiot + been + V-ing?",
+      "signals": "for, since, how long, before, until",
+      "examples": [
+        "I had been working for 5 hours. — Pracowałem od 5 godzin.",
+        "They had been talking all night. — Rozmawiali całą noc.",
+        "Had you been waiting long? — Czy czekałeś długo?"
+      ],
+      "tip": "To rzadki czas. Na początku wystarczy go rozpoznawać, nie musisz go jeszcze używać."
+    },
+    "external": [
+      {
+        "name": "Test-English: przegląd czasów (B2)",
+        "url": "https://test-english.com/grammar-points/b1-b2/review-verb-tenses-b1-b2/",
+        "search": false
+      },
+      {
+        "name": "BBC: szukaj wideo",
+        "url": "https://www.youtube.com/@bbclearningenglish/search?query=past%20perfect%20continuous",
+        "search": true
+      },
+      {
+        "name": "EF Polska — wyjaśnienie po polsku",
+        "url": "https://www.ef.pl/przewodnik-po-angielskim/gramatyka-angielska/czas-past-perfect-continuous/"
+      }
+    ],
+    "tokens": [
+      [
+        [
+          "She",
+          "S",
+          "ona"
+        ],
+        [
+          "had been",
+          "aux",
+          "od jakiegoś czasu (had + been)"
+        ],
+        [
+          "waiting",
+          "V-ing",
+          "czekając (wait + ing)"
+        ],
+        [
+          "for an hour",
+          "czas",
+          "od godziny"
+        ]
+      ],
+      "Ona czekała już godzinę (zanim coś się stało).",
+      "had + been + czasownik z -ing. Długość trwania do momentu w przeszłości."
+    ]
   },
   {
     "id": "grammar-15",
@@ -937,7 +1470,65 @@
         "Future Continuous wymaga will be."
       ]
     ],
-    "compare": "Will + bezokolicznik może wyrażać decyzję lub przewidywanie. Will be doing pokazuje przebieg czynności w przyszłej chwili."
+    "compare": "Will + bezokolicznik może wyrażać decyzję lub przewidywanie. Will be doing pokazuje przebieg czynności w przyszłej chwili.",
+    "detail": {
+      "use": [
+        "czynność w toku w określonym momencie przyszłości: At 8 tomorrow I'll be studying.",
+        "uprzejme pytanie o plany: Will you be using the car?"
+      ],
+      "positive": "will be + V-ing.",
+      "negative": "won't be + V-ing.",
+      "question": "Will + podmiot + be + V-ing?",
+      "signals": "at this time tomorrow, at 5 pm, this time next week",
+      "examples": [
+        "This time tomorrow I'll be flying. — O tej porze jutro będę leciał.",
+        "I won't be working on Friday. — W piątek nie będę pracował.",
+        "Will you be sleeping at 10? — Czy będziesz spał o 10?"
+      ],
+      "tip": "Podaj moment w przyszłości (at 8, this time tomorrow). Bez niego zwykle wystarczy will."
+    },
+    "external": [
+      {
+        "name": "Test-English: lekcja i ćwiczenia",
+        "url": "https://test-english.com/grammar-points/b1-b2/future-continuous-and-future-perfect/",
+        "search": false
+      },
+      {
+        "name": "BBC wideo: The Future Tense",
+        "url": "https://youtu.be/elPHkXNxi2g",
+        "search": false
+      },
+      {
+        "name": "EF Polska — wyjaśnienie po polsku",
+        "url": "https://www.ef.pl/przewodnik-po-angielskim/gramatyka-angielska/czas-future-continuous/"
+      }
+    ],
+    "tokens": [
+      [
+        [
+          "She",
+          "S",
+          "ona"
+        ],
+        [
+          "will be",
+          "aux",
+          "będzie (will + be)"
+        ],
+        [
+          "reading",
+          "V-ing",
+          "czytając (read + ing)"
+        ],
+        [
+          "at 8 tomorrow",
+          "czas",
+          "jutro o ósmej"
+        ]
+      ],
+      "Jutro o ósmej będzie czytać.",
+      "will be + czasownik z -ing. Coś będzie TRWAĆ w konkretnym momencie w przyszłości."
+    ]
   },
   {
     "id": "grammar-16",
@@ -986,7 +1577,64 @@
         "Will have + III forma."
       ]
     ],
-    "compare": "Future Perfect skupia się na osiągnięciu do terminu (by). Future Continuous pokazuje czynność trwającą w danym momencie (at)."
+    "compare": "Future Perfect skupia się na osiągnięciu do terminu (by). Future Continuous pokazuje czynność trwającą w danym momencie (at).",
+    "detail": {
+      "use": [
+        "czynność zakończona przed określonym momentem w przyszłości: By Friday I will have finished."
+      ],
+      "positive": "will have + V3.",
+      "negative": "won't have + V3.",
+      "question": "Will + podmiot + have + V3?",
+      "signals": "by Friday, by 2030, by the time, before",
+      "examples": [
+        "I will have finished by 6. — Skończę do 18.",
+        "She won't have arrived by then. — Do tego czasu nie przyjedzie.",
+        "Will you have eaten? — Czy zdążysz zjeść?"
+      ],
+      "tip": "By oznacza 'najpóźniej do', nie myl z until ('aż do'). By Friday = do piątku."
+    },
+    "external": [
+      {
+        "name": "Test-English: lekcja i ćwiczenia",
+        "url": "https://test-english.com/grammar-points/b1-b2/future-continuous-and-future-perfect/",
+        "search": false
+      },
+      {
+        "name": "Test-English: przegląd czasów (B2)",
+        "url": "https://test-english.com/grammar-points/b1-b2/review-verb-tenses-b1-b2/",
+        "search": false
+      },
+      {
+        "name": "EF Polska — wyjaśnienie po polsku",
+        "url": "https://www.ef.pl/przewodnik-po-angielskim/gramatyka-angielska/czas-future-perfect/"
+      }
+    ],
+    "tokens": [
+      [
+        [
+          "She",
+          "S",
+          "ona"
+        ],
+        [
+          "will have",
+          "aux",
+          "będzie mieć (will + have)"
+        ],
+        [
+          "finished",
+          "V3",
+          "skończone (3. forma)"
+        ],
+        [
+          "by Friday",
+          "czas",
+          "do piątku"
+        ]
+      ],
+      "Do piątku już skończy.",
+      "will have + V3. Coś będzie ZAKOŃCZONE do określonego momentu w przyszłości."
+    ]
   },
   {
     "id": "grammar-17",
@@ -1035,7 +1683,64 @@
         "Pełna konstrukcja zawiera been."
       ]
     ],
-    "compare": "Future Perfect mówi o ukończonym rezultacie, a Future Perfect Continuous o długości trwania do przyszłego punktu."
+    "compare": "Future Perfect mówi o ukończonym rezultacie, a Future Perfect Continuous o długości trwania do przyszłego punktu.",
+    "detail": {
+      "use": [
+        "długość trwania czynności do momentu w przyszłości: By June I will have been learning English for a year."
+      ],
+      "positive": "will have been + V-ing.",
+      "negative": "won't have been + V-ing.",
+      "question": "Will + podmiot + have been + V-ing?",
+      "signals": "by (then), for + okres, by the time",
+      "examples": [
+        "By May I'll have been working here 2 years. — W maju minie 2 lata mojej pracy tutaj.",
+        "Will you have been waiting long? — Czy będziesz czekać długo?",
+        "By 5 pm she will have been driving for 6 hours. — O 17 będzie jechać już 6 godzin."
+      ],
+      "tip": "Najrzadszy czas, w rozmowie prawie się nie pojawia. Wystarczy go rozpoznawać."
+    },
+    "external": [
+      {
+        "name": "Test-English: przegląd czasów (B2)",
+        "url": "https://test-english.com/grammar-points/b1-b2/review-verb-tenses-b1-b2/",
+        "search": false
+      },
+      {
+        "name": "BBC: szukaj wideo",
+        "url": "https://www.youtube.com/@bbclearningenglish/search?query=future%20perfect%20continuous",
+        "search": true
+      },
+      {
+        "name": "EF Polska — wyjaśnienie po polsku",
+        "url": "https://www.ef.pl/przewodnik-po-angielskim/gramatyka-angielska/czas-future-perfect-continuous/"
+      }
+    ],
+    "tokens": [
+      [
+        [
+          "She",
+          "S",
+          "ona"
+        ],
+        [
+          "will have been",
+          "aux",
+          "będzie od jakiegoś czasu (will + have + been)"
+        ],
+        [
+          "working",
+          "V-ing",
+          "pracując (work + ing)"
+        ],
+        [
+          "by June",
+          "czas",
+          "do czerwca"
+        ]
+      ],
+      "Do czerwca będzie pracować już rok.",
+      "will have been + czasownik z -ing. Ile czasu coś będzie trwać do momentu w przyszłości (rzadki czas)."
+    ]
   },
   {
     "id": "grammar-18",

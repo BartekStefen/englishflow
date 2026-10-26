@@ -1,0 +1,634 @@
+{
+  "topics": [
+    "Przedstawianie się, 'to be'",
+    "Rutyna dnia, Present Simple",
+    "Rodzina i 'have'",
+    "Jedzenie i zakupy",
+    "Dom i 'there is'",
+    "Przeszłość, Past Simple",
+    "Opowiadanie o weekendzie",
+    "Plany: going to / will",
+    "Opisywanie ludzi i miejsc",
+    "Upodobania i opinie",
+    "Studia i IT",
+    "Powtórka i bilans"
+  ],
+  "weekly": [
+    [
+      [
+        "Real Easy English: Talking about names",
+        "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260522",
+        1
+      ],
+      [
+        "Real Easy English: Talking about yourself",
+        "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/240830",
+        1
+      ],
+      [
+        "Real Easy English: Talking about old friends",
+        "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260605",
+        1
+      ],
+      [
+        "Real Easy English: Talking about speaking languages",
+        "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260130",
+        1
+      ],
+      [
+        "Real Easy English: Talking about birthdays",
+        "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260220",
+        1
+      ]
+    ],
+    [
+      [
+        "BBC 6 Minute Grammar: czasy teraźniejsze (wideo)",
+        "https://www.youtube.com/watch?v=X6LuWwb9whM",
+        1
+      ],
+      [
+        "Real Easy English: Talking about breakfast",
+        "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/251107",
+        1
+      ],
+      [
+        "Real Easy English: Talking about dinner",
+        "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/251212",
+        1
+      ],
+      [
+        "Real Easy English: Talking about naps",
+        "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/251114",
+        1
+      ],
+      [
+        "Real Easy English: Talking about weekends",
+        "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260320",
+        1
+      ]
+    ],
+    [
+      [
+        "Real Easy English: Talking about your family tree",
+        "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260724",
+        1
+      ],
+      [
+        "Real Easy English: Talking about animals",
+        "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260123",
+        1
+      ],
+      [
+        "Real Easy English: Talking about laughing",
+        "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/251219",
+        1
+      ],
+      [
+        "Real Easy English: Talking about colours",
+        "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260109",
+        1
+      ],
+      [
+        "Real Easy English: Talking about your hair",
+        "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260717",
+        1
+      ]
+    ],
+    [
+      [
+        "Real Easy English: Talking about coffee",
+        "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260821",
+        1
+      ],
+      [
+        "Real Easy English: Talking about desserts",
+        "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260911",
+        1
+      ],
+      [
+        "Real Easy English: Talking about spicy food",
+        "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260807",
+        1
+      ],
+      [
+        "Real Easy English: Talking about chocolate",
+        "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260313",
+        1
+      ],
+      [
+        "Real Easy English: Talking about drinks",
+        "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260116",
+        1
+      ]
+    ],
+    [
+      [
+        "Real Easy English: Talking about housework",
+        "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260828",
+        1
+      ],
+      [
+        "Real Easy English: Talking about moving house",
+        "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260626",
+        1
+      ],
+      [
+        "Real Easy English: Talking about cities",
+        "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260731",
+        1
+      ],
+      [
+        "Real Easy English: Talking about water",
+        "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260327",
+        1
+      ],
+      [
+        "Real Easy English: Talking about winter",
+        "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/251205",
+        1
+      ]
+    ],
+    [
+      [
+        "BBC Learning English Grammar: Stories from the past (czasy przeszłe)",
+        "https://www.bbc.co.uk/learningenglish/english/features/learning-english-grammar/260310",
+        1
+      ],
+      [
+        "Real Easy English: Talking about your year",
+        "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/251226",
+        1
+      ],
+      [
+        "Real Easy English: Talking about hard jobs",
+        "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260918",
+        1
+      ],
+      [
+        "Real Easy English: Talking about books",
+        "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260403",
+        1
+      ],
+      [
+        "Real Easy English: Talking about complaining",
+        "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260904",
+        1
+      ]
+    ],
+    [
+      [
+        "Real Easy English: Talking about days out (wideo)",
+        "https://www.youtube.com/watch?v=S7mfygW40Cs",
+        1
+      ],
+      [
+        "Real Easy English: Talking about the beach",
+        "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260529",
+        1
+      ],
+      [
+        "Real Easy English: Talking about playing sports",
+        "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260227",
+        1
+      ],
+      [
+        "Real Easy English: Talking about hot weather",
+        "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260612",
+        1
+      ],
+      [
+        "Real Easy English: Talking about seasons (wideo)",
+        "https://www.youtube.com/watch?v=QBddNulwhKo",
+        1
+      ]
+    ],
+    [
+      [
+        "BBC: The Future Tense (wideo)",
+        "https://youtu.be/elPHkXNxi2g",
+        1
+      ],
+      [
+        "Real Easy English: Talking about New Year's resolutions",
+        "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260102",
+        1
+      ],
+      [
+        "Real Easy English: Talking about airports",
+        "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/261002",
+        1
+      ],
+      [
+        "Real Easy English: Talking about autumn",
+        "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260925",
+        1
+      ],
+      [
+        "Real Easy English: Talking about Halloween",
+        "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/251031",
+        1
+      ]
+    ],
+    [
+      [
+        "Real Easy English: Talking about being grumpy",
+        "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260814",
+        1
+      ],
+      [
+        "Real Easy English: Talking about hates",
+        "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260619",
+        1
+      ],
+      [
+        "Real Easy English: Talking about rain",
+        "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260306",
+        1
+      ],
+      [
+        "Real Easy English: Talking about greed",
+        "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/251024",
+        1
+      ],
+      [
+        "Real Easy English: Talking about the environment",
+        "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/240823",
+        1
+      ]
+    ],
+    [
+      [
+        "Real Easy English: Talking about saving money",
+        "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/250919",
+        1
+      ],
+      [
+        "Real Easy English: Talking about extreme sports",
+        "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260206",
+        1
+      ],
+      [
+        "Real Easy English: Talking about climate change",
+        "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260710",
+        1
+      ],
+      [
+        "Real Easy English: Talking about watching sports",
+        "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/251128",
+        1
+      ],
+      [
+        "Real Easy English: Talking about music",
+        "https://www.youtube.com/@bbclearningenglish/search?query=Real%20Easy%20English%20Talking%20about%20music",
+        0
+      ]
+    ],
+    [
+      [
+        "Real Easy English: Talking about phone habits",
+        "https://www.bbc.co.uk/learningenglish/english/features/real-easy-english/260703",
+        1
+      ],
+      [
+        "BBC Learning English Grammar: What have you been up to? (Present Perfect)",
+        "https://www.bbc.co.uk/learningenglish/english/features/learning-english-grammar/260203",
+        1
+      ],
+      [
+        "Real Easy English: Talking about technology",
+        "https://www.youtube.com/@bbclearningenglish/search?query=Real%20Easy%20English%20Talking%20about%20technology",
+        0
+      ],
+      [
+        "Real Easy English: Talking about communication",
+        "https://www.youtube.com/@bbclearningenglish/search?query=Real%20Easy%20English%20Talking%20about%20communication",
+        0
+      ],
+      [
+        "Real Easy English: Talking about the office",
+        "https://www.youtube.com/@bbclearningenglish/search?query=Real%20Easy%20English%20Talking%20about%20the%20office",
+        0
+      ]
+    ],
+    [
+      [
+        "Real Easy English: Talking about your brain (wideo)",
+        "https://www.youtube.com/watch?v=j64n3KdIob0",
+        1
+      ],
+      [
+        "Test-English: przegląd wszystkich czasów",
+        "https://test-english.com/grammar-points/b1-b2/review-verb-tenses-b1-b2/",
+        1
+      ],
+      [
+        "BBC Learning English Grammar: Stories from the past (powtórka)",
+        "https://www.bbc.co.uk/learningenglish/english/features/learning-english-grammar/260310",
+        1
+      ],
+      [
+        "BBC 6 Minute English: odcinki",
+        "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english",
+        0
+      ],
+      [
+        "EF SET: test poziomu",
+        "https://www.efset.org",
+        0
+      ]
+    ]
+  ],
+  "glossary": [
+    [
+      "czasownik",
+      "słowo na czynność: read (czytać), work (pracować), play (grać)"
+    ],
+    [
+      "czasownik pomocniczy",
+      "mały pomocnik. Sam nic nie znaczy, tylko pomaga zbudować czas: am, is, are, was, were, have, has, had, will, do, does, did"
+    ],
+    [
+      "czasownik z końcówką -ing",
+      "czasownik + ing: read → reading, work → working"
+    ],
+    [
+      "czasownik z końcówką -s",
+      "czasownik + s (tylko he, she, it): read → reads"
+    ],
+    [
+      "czasownik w 2. formie",
+      "przeszłość: work → worked, go → went"
+    ],
+    [
+      "czasownik w 3. formie",
+      "work → worked, go → gone, leave → left (3. kolumna w tabeli czasowników nieregularnych)"
+    ],
+    [
+      "podmiot",
+      "kto to robi: I, you, he, she, it, we, they albo imię"
+    ]
+  ],
+  "quiz": [
+    {
+      "t": 0,
+      "q": "She ___ coffee every morning.",
+      "o": [
+        "drinks",
+        "drink",
+        "is drinking"
+      ],
+      "e": "Nawyk i podmiot she, więc Present Simple z -s."
+    },
+    {
+      "t": 0,
+      "q": "___ you speak English?",
+      "o": [
+        "Do",
+        "Are",
+        "Does"
+      ],
+      "e": "Pytanie w Present Simple: Do + you + czasownik."
+    },
+    {
+      "t": 1,
+      "q": "Look! It ___ now.",
+      "o": [
+        "is raining",
+        "rains",
+        "rained"
+      ],
+      "e": "Dzieje się teraz, więc Present Continuous."
+    },
+    {
+      "t": 1,
+      "q": "I ___ to music at the moment.",
+      "o": [
+        "am listening",
+        "listen",
+        "listened"
+      ],
+      "e": "At the moment wskazuje na Present Continuous."
+    },
+    {
+      "t": 2,
+      "q": "I ___ my keys. I can't find them.",
+      "o": [
+        "have lost",
+        "lose",
+        "am losing"
+      ],
+      "e": "Skutek jest teraz (nie mam kluczy), więc Present Perfect."
+    },
+    {
+      "t": 2,
+      "q": "She has lived here ___ 2020.",
+      "o": [
+        "since",
+        "for",
+        "ago"
+      ],
+      "e": "Since łączy się z punktem w czasie (2020)."
+    },
+    {
+      "t": 3,
+      "q": "I ___ for two hours. I'm tired.",
+      "o": [
+        "have been studying",
+        "study",
+        "am studying"
+      ],
+      "e": "Czynność trwa do teraz i liczy się czas trwania."
+    },
+    {
+      "t": 3,
+      "q": "How long ___ waiting?",
+      "o": [
+        "have you been",
+        "are you",
+        "did you"
+      ],
+      "e": "How long + trwanie do teraz: Present Perfect Continuous."
+    },
+    {
+      "t": 4,
+      "q": "I ___ a film yesterday.",
+      "o": [
+        "watched",
+        "have watched",
+        "was watching"
+      ],
+      "e": "Yesterday oznacza Past Simple."
+    },
+    {
+      "t": 4,
+      "q": "Did you ___ him?",
+      "o": [
+        "see",
+        "saw",
+        "seen"
+      ],
+      "e": "Po did czasownik wraca do podstawowej formy."
+    },
+    {
+      "t": 5,
+      "q": "I ___ TV when the phone rang.",
+      "o": [
+        "was watching",
+        "watched",
+        "have watched"
+      ],
+      "e": "Tło przerwane zdarzeniem: Past Continuous."
+    },
+    {
+      "t": 5,
+      "q": "When I called at 8, she ___.",
+      "o": [
+        "was sleeping",
+        "slept",
+        "sleeps"
+      ],
+      "e": "Czynność w toku w momencie przeszłości."
+    },
+    {
+      "t": 6,
+      "q": "When I arrived, the film ___ already.",
+      "o": [
+        "had started",
+        "has started",
+        "starts"
+      ],
+      "e": "Wcześniejsza czynność w przeszłości: Past Perfect."
+    },
+    {
+      "t": 6,
+      "q": "She was late because she ___ the bus.",
+      "o": [
+        "had missed",
+        "has missed",
+        "misses"
+      ],
+      "e": "Powód wcześniejszy niż moment w przeszłości: Past Perfect."
+    },
+    {
+      "t": 7,
+      "q": "He was tired because he ___ all day.",
+      "o": [
+        "had been working",
+        "works",
+        "has worked"
+      ],
+      "e": "Trwało do momentu w przeszłości: Past Perfect Continuous."
+    },
+    {
+      "t": 7,
+      "q": "They ___ for an hour when she came.",
+      "o": [
+        "had been waiting",
+        "are waiting",
+        "wait"
+      ],
+      "e": "For an hour + when she came: Past Perfect Continuous."
+    },
+    {
+      "t": 8,
+      "q": "Don't worry, I ___ you.",
+      "o": [
+        "will help",
+        "helped",
+        "helps"
+      ],
+      "e": "Spontaniczna obietnica: will."
+    },
+    {
+      "t": 8,
+      "q": "I think it ___ tomorrow.",
+      "o": [
+        "will rain",
+        "rains",
+        "rained"
+      ],
+      "e": "Przewidywanie i opinia: will."
+    },
+    {
+      "t": 9,
+      "q": "We ___ visit Anna this weekend. We bought the tickets.",
+      "o": [
+        "are going to",
+        "visited",
+        "visit"
+      ],
+      "e": "Plan, który już istnieje: going to."
+    },
+    {
+      "t": 9,
+      "q": "Look at the clouds! It ___ rain.",
+      "o": [
+        "is going to",
+        "rains",
+        "rained"
+      ],
+      "e": "Przewidywanie na podstawie tego, co widać: going to."
+    },
+    {
+      "t": 10,
+      "q": "This time tomorrow I ___ on a plane.",
+      "o": [
+        "will be sitting",
+        "sat",
+        "sit"
+      ],
+      "e": "Czynność w toku w przyszłym momencie: Future Continuous."
+    },
+    {
+      "t": 10,
+      "q": "At 6 pm tomorrow we ___ dinner.",
+      "o": [
+        "will be having",
+        "had",
+        "have had"
+      ],
+      "e": "Czynność w toku o określonej porze w przyszłości."
+    },
+    {
+      "t": 11,
+      "q": "By Friday I ___ the project.",
+      "o": [
+        "will have finished",
+        "finished",
+        "am finishing"
+      ],
+      "e": "By + czas: Future Perfect."
+    },
+    {
+      "t": 11,
+      "q": "By next Monday they ___ the house.",
+      "o": [
+        "will have sold",
+        "sold",
+        "have sold"
+      ],
+      "e": "Zakończone do momentu w przyszłości: Future Perfect."
+    },
+    {
+      "t": 12,
+      "q": "By June I ___ here for a year.",
+      "o": [
+        "will have been working",
+        "work",
+        "will work"
+      ],
+      "e": "Czas trwania do momentu w przyszłości."
+    },
+    {
+      "t": 12,
+      "q": "By 2030 he ___ for ten years.",
+      "o": [
+        "will have been driving",
+        "drives",
+        "drove"
+      ],
+      "e": "By + moment + for: Future Perfect Continuous."
+    }
+  ]
+}
