@@ -1,0 +1,13 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {coursePosition,assignedDay,studyStatus,nextListening} from '../src/schedule.js';
+import {tenseSentence,noteKey} from '../src/grammar-notes.js';
+import {lifeScenes} from '../src/life.js';
+const data=JSON.parse(fs.readFileSync(new URL('../src/curriculum.json',import.meta.url))),materials=JSON.parse(fs.readFileSync(new URL('../src/materials.json',import.meta.url)));
+const text=(key,p,m)=>tenseSentence(key,p,m).map(x=>x[1]).join(' ');
+test('daily listening dates follow the chosen start date without shifting after reload',()=>{const prefs={planStart:'2026-10-26'};assert.equal(assignedDay(prefs,2,3).key,'2026-11-04');assert.deepEqual(coursePosition(prefs,new Date(2026,9,28)).day,2);const m=nextListening({prefs},materials,data,[]);assert.ok(m&&m.id);});
+test('opening a lesson never marks it complete',()=>{assert.equal(studyStatus([{type:'opened',material:'x',day:'2026-10-26'}],'x').kind,'opened');assert.equal(studyStatus([{type:'opened',material:'x'},{type:'complete',material:'x',day:'2026-10-26'}],'x').kind,'done');});
+test('interactive sentence lab respects auxiliary and verb order',()=>{assert.equal(text('simple','she','positive'),'She works every day.');assert.equal(text('simple','she','negative'),'She does not work every day.');assert.equal(text('simple','she','question'),'Does she work every day?');assert.equal(text('continuous','I','question'),'Am I working right now?');assert.equal(text('past','they','negative'),'They did not work yesterday.');assert.equal(text('perfect','he','question'),'Has he worked here before?');assert.equal(text('futureContinuous','we','negative'),'We will not be working at eight tomorrow.');});
+test('all tense lessons have plain-language notes',()=>{const grammar=JSON.parse(fs.readFileSync(new URL('../src/grammar.json',import.meta.url)));for(const g of grammar.filter(g=>/Simple|Continuous|Perfect|Future:/.test(g.name)))assert.ok(noteKey(g.name),g.name);});
+test('every real-life sentence can be built from its exact pieces',()=>{for(const s of lifeScenes){const a=s.pieces.slice().sort(),b=s.answer.split(' ').sort();assert.deepEqual(a,b,s.id);assert.ok(s.dialogue.length>=3&&s.chunks.length>=4&&s.task.length>15);}});

@@ -1,5 +1,5 @@
-const CACHE='englishflow-v5';
-const CORE=['./src/studio.css?v=5','./src/studio.css','./src/ui.js','./src/today.js','./src/studio.js','./src/oxford.js','./src/oxford-original.css?v=5','./src/oxford-original.css','./src/curriculum.json','./cloud-config.json','./','./index.html','./src/app.js?v=5','./src/style.css?v=5','./src/app.js','./src/style.css','./src/cloud.js','./src/store.js','./src/planner.js','./src/materials.json','./src/grammar.json','./icons/icon.svg','./manifest.webmanifest'];
+const CACHE='englishflow-v6';
+const CORE=['./src/account.js','./src/schedule.js','./src/life.js','./src/grammar-path.js','./src/grammar-notes.js','./src/studio.css?v=6','./src/studio.css','./src/ui.js','./src/today.js','./src/studio.js','./src/oxford.js','./src/oxford-original.css?v=6','./src/oxford-original.css','./src/curriculum.json','./cloud-config.json','./','./index.html','./src/app.js?v=6','./src/style.css?v=6','./src/app.js','./src/style.css','./src/cloud.js','./src/store.js','./src/planner.js','./src/materials.json','./src/grammar.json','./icons/icon.svg','./manifest.webmanifest'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE.map(url=>new Request(url,{cache:'reload'}))))));
 self.addEventListener('message',e=>{if(e.data==='ACTIVATE')self.skipWaiting();});
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(ks=>Promise.all(ks.filter(k=>k.startsWith('englishflow-')&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));

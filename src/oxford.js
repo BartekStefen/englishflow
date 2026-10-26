@@ -2,10 +2,10 @@
  * Source commit: 2c088150bdadf1dfbef14ab720e7a0caca4ccae8.
  * All six modes, word identifiers, grading and flashcard mechanisms are retained.
  */
-export function mountOxford(host,{onSave}={}){
+export function mountOxford(host,{onSave,theme='light'}={}){
 const ASSETS='https://bartekstefen.github.io/oxford3000-nauka/';
 const root=host.shadowRoot||host.attachShadow({mode:'open'});
-root.innerHTML='<link rel="stylesheet" href="src/oxford-original.css?v=5"><div id="app"><div class="loading">Ładowanie oryginalnego Oxforda…</div></div><div id="toast" role="status" aria-live="polite"></div>';
+root.innerHTML='<link rel="stylesheet" href="src/oxford-original.css?v=6"><div id="app"><div class="loading">Ładowanie oryginalnego Oxforda…</div></div><div id="toast" role="status" aria-live="polite"></div>';
 const lifecycle=new AbortController();let keyboard=null;
 const nativeDoc=globalThis.document;
 const document={querySelector:root.querySelector.bind(root),querySelectorAll:root.querySelectorAll.bind(root),body:root,documentElement:host,createElement:nativeDoc.createElement.bind(nativeDoc),execCommand:nativeDoc.execCommand.bind(nativeDoc),addEventListener:(type,fn,opts)=>root.addEventListener(type,fn,{...(typeof opts==='boolean'?{capture:opts}:opts),signal:lifecycle.signal}),get onkeydown(){return keyboard},set onkeydown(fn){keyboard=fn}};
@@ -37,7 +37,7 @@ function fill(s){
   s.set=Object.assign({auto:true,dir:'pl-en',theme:'auto',rate:1,learnN:7,writeN:20,fisN:20},s.set||{}); return s;
 }
 function load(){ try{ const s=JSON.parse(localStorage.getItem(KEY)); if(s&&s.p) return fill(s);}catch(e){} return fill({}); }
-let S=load();
+let S=load();S.set.theme=theme;host.setAttribute('data-theme',theme);
 function save(){ try{ localStorage.setItem(KEY,JSON.stringify(S)); onSave?.(structuredClone(S)); }catch(e){ toast('Nie udało się zapisać postępów'); } }
 function P(id){ return S.p[id]||(S.p[id]={s:0}); }
 function st(id){ const p=S.p[id]; return p?p.s:0; }
