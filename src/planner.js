@@ -17,7 +17,7 @@ export function plan(minutes,events=[],now=Date.now(),options={}){
  const count=minutes<=25?1:minutes<=45?2:minutes<=90?3:4;
  let added=0;for(const item of pool){if(added>=count||left<item.min)break;const slots=Math.min(count,pool.length)-added;add(item.id,Math.min(item.max,Math.max(item.min,Math.floor(left/slots))),item.why);added++;}
  for(let i=0;left>0&&out.some(e=>e.minutes<e.max);i++){const item=out[i%out.length];if(item.minutes<item.max){item.minutes++;left--;}}
- return [...completed,...out];
+ const sequence=['oxford','busuu','speaking','listening','grammar','writing'];out.sort((a,b)=>sequence.indexOf(a.id)-sequence.indexOf(b.id));return [...completed,...out];
 }
 export function streak(events,now=new Date()) {const days=new Set(events.filter(e=>e.type==='complete').map(e=>e.day));let d=new Date(now),n=0;if(!days.has(dayKey(d)))d.setDate(d.getDate()-1);while(days.has(dayKey(d))){n++;d.setDate(d.getDate()-1);}return n;}
 export function mergeEvents(a,b){return [...new Map([...a,...b].map(e=>[e.id,e])).values()].sort((x,y)=>x.at-y.at);}

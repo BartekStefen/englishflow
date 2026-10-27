@@ -1,3 +1,4 @@
+import {icon as flowIcon} from './ui.js';
 /* Original Oxford application, adapted only at its browser boundary.
  * Source commit: 2c088150bdadf1dfbef14ab720e7a0caca4ccae8.
  * All six modes, word identifiers, grading and flashcard mechanisms are retained.
@@ -5,14 +6,14 @@
 export function mountOxford(host,{onSave,theme='light'}={}){
 const ASSETS='https://bartekstefen.github.io/oxford3000-nauka/';
 const root=host.shadowRoot||host.attachShadow({mode:'open'});
-root.innerHTML='<link rel="stylesheet" href="src/oxford-original.css?v=6"><div id="app"><div class="loading">Ładowanie oryginalnego Oxforda…</div></div><div id="toast" role="status" aria-live="polite"></div>';
+root.innerHTML='<link rel="stylesheet" href="src/oxford-original.css?v=7"><div id="app"><div class="loading">Ładowanie oryginalnego Oxforda…</div></div><div id="toast" role="status" aria-live="polite"></div>';
 const lifecycle=new AbortController();let keyboard=null;
 const nativeDoc=globalThis.document;
 const document={querySelector:root.querySelector.bind(root),querySelectorAll:root.querySelectorAll.bind(root),body:root,documentElement:host,createElement:nativeDoc.createElement.bind(nativeDoc),execCommand:nativeDoc.execCommand.bind(nativeDoc),addEventListener:(type,fn,opts)=>root.addEventListener(type,fn,{...(typeof opts==='boolean'?{capture:opts}:opts),signal:lifecycle.signal}),get onkeydown(){return keyboard},set onkeydown(fn){keyboard=fn}};
 nativeDoc.addEventListener('keydown',e=>{if(host.isConnected&&globalThis.location.hash.startsWith('#oxford'))keyboard?.(e)},{signal:lifecycle.signal});
 const location={get hash(){return '#'+globalThis.location.hash.replace(/^#oxford\/?/,'')},set hash(h){globalThis.location.hash='oxford/'+String(h).replace(/^#/,'')},href:ASSETS,protocol:globalThis.location.protocol,replace:h=>globalThis.location.replace('#oxford/'+String(h).replace(/^#/,''))};
 const history=globalThis.history;
-const window={navigator:globalThis.navigator,caches:globalThis.caches,SILENT_MP3:"data:audio/mpeg;base64,SUQzBAAAAAAAIlRTU0UAAAAOAAADTGF2ZjYxLjcuMTAzAAAAAAAAAAAAAAD/84TAAAAAAAAAAAAASW5mbwAAAA8AAAAJAAAEIABFRUVFRUVFRUVFRV1dXV1dXV1dXV1ddHR0dHR0dHR0dHSLi4uLi4uLi4uLi6KioqKioqKioqKiurq6urq6urq6urrR0dHR0dHR0dHR0ejo6Ojo6Ojo6Ojo//////////////8AAAAATGF2YzYxLjE5AAAAAAAAAAAAAAAAJAPwAAAAAAAABCAN5n8eAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/80TEAAAAA0gAAAAATEFNRTMuMTAwVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVMQU1FMy7/80TEUwAAA0gAAAAAMTAwVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVMQU1FMy7/80TEpgAAA0gAAAAAMTAwVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVMQU1FMy7/80TErAAAA0gAAAAAMTAwVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVMQU1FMy7/80TErAAAA0gAAAAAMTAwVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVMQU1FMy7/80TErAAAA0gAAAAAMTAwVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVMQU1FMy7/80TErAAAA0gAAAAAMTAwVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVX/80TErAAAA0gAAAAAVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVX/80TErAAAA0gAAAAAVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVU=",scrollTo:globalThis.scrollTo.bind(globalThis),addEventListener:(type,fn)=>globalThis.addEventListener(type,e=>{if(globalThis.location.hash.startsWith('#oxford'))fn(e)},{signal:lifecycle.signal})};
+const window={navigator:globalThis.navigator,caches:globalThis.caches,SILENT_MP3:"data:audio/mpeg;base64,SUQzBAAAAAAAIlRTU0UAAAAOAAADTGF2ZjYxLjcuMTAzAAAAAAAAAAAAAAD/84TAAAAAAAAAAAAASW5mbwAAAA8AAAAJAAAEIABFRUVFRUVFRUVFRV1dXV1dXV1dXV1ddHR0dHR0dHR0dHSLi4uLi4uLi4uLi6KioqKioqKioqKiurq6urq6urq6urrR0dHR0dHR0dHR0ejo6Ojo6Ojo6Ojo//////////////8AAAAATGF2YzYxLjE5AAAAAAAAAAAAAAAAJAPwAAAAAAAABCAN5n8eAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/80TEAAAAA0gAAAAATEFNRTMuMTAwVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVMQU1FMy7/80TEUwAAA0gAAAAAMTAwVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVMQU1FMy7/80TEpgAAA0gAAAAAMTAwVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVMQU1FMy7/80TErAAAA0gAAAAAMTAwVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVMQU1FMy7/80TErAAAA0gAAAAAMTAwVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVMQU1FMy7/80TErAAAA0gAAAAAMTAwVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVMQU1FMy7/80TErAAAA0gAAAAAMTAwVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVX/80TErAAAA0gAAAAAVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVX/80TErAAAA0gAAAAAVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVU=",scrollTo:globalThis.scrollTo.bind(globalThis),addEventListener:(type,fn)=>globalThis.addEventListener(type,e=>{if(globalThis.location.hash.startsWith('#oxford')&&W.length)fn(e)},{signal:lifecycle.signal})};
 
 /* Słówka 3000 – nauka angielskiego PL→EN (Oxford 3000, A1–B2). Całość działa lokalnie w przeglądarce. */
 const $=(s,r=document)=>r.querySelector(s), $$=(s,r=document)=>[...r.querySelectorAll(s)];
@@ -37,8 +38,8 @@ function fill(s){
   s.set=Object.assign({auto:true,dir:'pl-en',theme:'auto',rate:1,learnN:7,writeN:20,fisN:20},s.set||{}); return s;
 }
 function load(){ try{ const s=JSON.parse(localStorage.getItem(KEY)); if(s&&s.p) return fill(s);}catch(e){} return fill({}); }
-let S=load();S.set.theme=theme;host.setAttribute('data-theme',theme);
-function save(){ try{ localStorage.setItem(KEY,JSON.stringify(S)); onSave?.(structuredClone(S)); }catch(e){ toast('Nie udało się zapisać postępów'); } }
+let lastSavedWords;let S=load(); lastSavedWords=structuredClone(S.p);S.set.theme=theme;host.setAttribute('data-theme',theme);
+function save(){ try{ const remote=JSON.parse(localStorage.getItem(KEY)||'{}');if(lastSavedWords){for(const id of new Set([...Object.keys(lastSavedWords),...Object.keys(remote.p||{})])){if(JSON.stringify(S.p[id])===JSON.stringify(lastSavedWords[id])){if(remote.p?.[id]===undefined)delete S.p[id];else S.p[id]=remote.p[id];}}}lastSavedWords=structuredClone(S.p);localStorage.setItem(KEY,JSON.stringify(S)); onSave?.(structuredClone(S)); }catch(e){ toast('Nie udało się zapisać postępów'); } }
 function P(id){ return S.p[id]||(S.p[id]={s:0}); }
 function st(id){ const p=S.p[id]; return p?p.s:0; }
 function isHard(id){ const p=S.p[id]; return !!(p&&p.h); }
@@ -91,7 +92,7 @@ function toast(t){ const el=$('#toast'); el.textContent=t; el.classList.add('on'
 function shuffle(a){ a=a.slice(); for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
 function pl2en(){ return S.set.dir!=='en-pl'; }
 function applyTheme(){ const t=S.set.theme; if(t==='auto') document.documentElement.removeAttribute('data-theme'); else document.documentElement.setAttribute('data-theme',t); }
-const LV_EMO=['🌱','🌿','🌳','🏔️','🚀','🏆'];
+const LV_EMO=['01','02','03','04','05','06'];
 /* nagłówek z zawsze widocznym przyciskiem Wstecz (back=null → brak, ''=ekran główny) */
 function backBtn(target){ return `<button class="bk" data-back="${esc(target)}" aria-label="Wstecz">${ICON.back}<span>Wstecz</span></button>`; }
 function topBar(title,back,right){ return `<div class="top">${back!=null?backBtn(back):'<span></span>'}<h2>${title}</h2><div class="tr">${right||''}</div></div>`; }
@@ -201,7 +202,7 @@ function scrHome(){
   h+=`<div class="sec">Poziomy – od najłatwiejszego</div>`;
   LEVELS.forEach((L,i)=>{ const s=levelStats(i); const pct=Math.round(s.m/s.n*100);
     h+=`<button class="tile" data-go="l/${i}"><div class="row"><span style="font-size:24px">${LV_EMO[i]}</span><span class="t">${i+1}. ${esc(L.name)}</span><span class="badge">${pct}%</span></div>${bar(s)}<div class="s">${s.m} opanowanych · ${s.f} w trakcie · ${s.n} słówek</div></button>`; });
-  h+=`<div class="center small muted" style="margin-top:8px">Słówka z listy Oxford 3000 (A1–B2), polskie tłumaczenia i przykłady. Wymowa: brytyjski głos syntetyczny.</div>`;
+  h+=`<div class="center small muted" style="margin-top:8px">Słówka z listy Oxford 3000 (A1–B2), polskie tłumaczenia i przykłady. Oryginalne nagrania wymowy i przykładów.</div>`;
   app().innerHTML=h;
   const hb=$('#hideA2'); if(hb) hb.onclick=e=>{ e.stopPropagation(); S.set.hideA2HS=1; save(); scrHome(); };
 }
@@ -215,12 +216,12 @@ function scrLevel(l){
   app().innerHTML=`${topBar(`${LV_EMO[l]} ${esc(L.name)}`,'',`<button class="ib" data-go="list/${l}" aria-label="Lista słówek">☰</button>`)}
   <div class="tile" style="cursor:default">${bar(s)}<div class="s">✅ ${s.m} opanowanych · 🟧 ${s.f} w trakcie · ⬜ ${s.n-s.m-s.f} nowych${s.h?` · ❗ ${s.h} trudnych`:''}</div></div>
   <div class="modes">
-    <button class="mode" data-go="s/fis/${l}"><span class="e">🃏</span><span class="t">Fiszki</span><span class="s">Obracaj karty, przesuwaj: umiem / nie umiem</span></button>
-    <button class="mode" data-go="s/learn/${l}"><span class="e">🎯</span><span class="t">Nauka</span><span class="s">Wybór odpowiedzi, potem wpisywanie – aż opanujesz</span></button>
-    <button class="mode" data-go="s/write/${l}"><span class="e">⌨️</span><span class="t">Pisanie</span><span class="s">Wpisuj angielskie słowa, sprawdzanie błędów</span></button>
-    <button class="mode" data-go="s/test/${l}"><span class="e">📝</span><span class="t">Test</span><span class="s">Sprawdź się – wynik na końcu</span></button>
-    <button class="mode" data-go="list/${l}"><span class="e">📚</span><span class="t">Lista słówek</span><span class="s">Przeglądaj, szukaj, słuchaj</span></button>
-    <button class="mode" data-go="rev"><span class="e">🔁</span><span class="t">Powtórki</span><span class="s">Trudne i zaległe słówka</span></button>
+    <button class="mode" data-go="s/fis/${l}"><span class="e">${flowIcon('oxford')}</span><span class="t">Fiszki</span><span class="s">Obracaj karty, przesuwaj: umiem / nie umiem</span></button>
+    <button class="mode" data-go="s/learn/${l}"><span class="e">${flowIcon('progress')}</span><span class="t">Nauka</span><span class="s">Wybór odpowiedzi, potem wpisywanie – aż opanujesz</span></button>
+    <button class="mode" data-go="s/write/${l}"><span class="e">${flowIcon('writing')}</span><span class="t">Pisanie</span><span class="s">Wpisuj angielskie słowa, sprawdzanie błędów</span></button>
+    <button class="mode" data-go="s/test/${l}"><span class="e">${flowIcon('check')}</span><span class="t">Test</span><span class="s">Sprawdź się – wynik na końcu</span></button>
+    <button class="mode" data-go="list/${l}"><span class="e">${flowIcon('library')}</span><span class="t">Lista słówek</span><span class="s">Przeglądaj, szukaj, słuchaj</span></button>
+    <button class="mode" data-go="rev"><span class="e">${flowIcon('clock')}</span><span class="t">Powtórki</span><span class="s">Trudne i zaległe słówka</span></button>
   </div>`;
 }
 

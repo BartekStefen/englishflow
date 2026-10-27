@@ -1,13 +1,9 @@
-# Oddzielenie Oxford i EnglishFlow
+# Stan aplikacji
 
-Źródło: BartekStefen/oxford3000-nauka, commit 2c088150bdadf1dfbef14ab720e7a0caca4ccae8.
+Oxford pozostaje bez zmian w oryginalnym repozytorium. EnglishFlow zawiera jego pełny interfejs w zakładce Słówka, bez iframe. Dane i nagrania są pobierane z oryginalnego źródła.
 
-Oryginalny Oxford ma 3805 rekordów, 6 kolekcji, nagrania i sześć trybów nauki. Pozostaje w dotychczasowym repozytorium z niezmienionym kluczem slowka3000:v1. Nowa instrukcja użytkownika nakazuje oddzielną aplikację, dlatego nie przenosimy ani nie upraszczamy tego modułu. EnglishFlow odsyła do oryginału i zapisuje tylko ręcznie potwierdzony czas sesji.
+Historia, szkice, ustawienia i postępy słówek korzystają z IndexedDB oraz synchronizacji Supabase po zalogowaniu. Zdarzenia są niezmienne, postępy mają osobne wersje dla każdego słowa. Nie potwierdzono jeszcze próby na dwóch zalogowanych urządzeniach użytkownika.
 
-Poprzedni EnglishFlow składał się z index.html i dwóch warstw nadpisujących globalne funkcje render/go. Plan miał częściowo stałe zadania, lokalne i chmurowe dane łączono bez pełnej ochrony konfliktów. Oxford osadzano w iframe. Publiczne parametry Supabase były puste.
+27 lekcji gramatyki, 12 scenariuszy życiowych, 102 materiały. Otwarcie materiału i ukończenie to osobne stany. Źródła zewnętrzne mogą zmieniać adresy; nauka gramatyki jest dostępna bez opuszczania aplikacji.
 
-Zachowano wszystkie 60 pozycji planu tygodniowego i 19 dodatkowych źródeł z unified.js. Rozróżniamy wyszukiwanie, stronę programu i bezpośredni materiał. Tytuły i adresy odziedziczone nie są przedstawiane jako ponownie zweryfikowane. Oryginalnego pliku „Mój angielski” nie udostępniono. Nie pobieramy ani nie publikujemy kopii Oxford/audio ani treści BBC. Brak pliku licencji nie daje podstawy do nadania odziedziczonej treści nowej otwartej licencji.
-
-Zachowano 12 autorskich opisów gramatycznych z projektu i rozszerzono kurs. W nowej architekturze rozdzielono dane, widoki, planer i zapis IndexedDB. Szkice zapisują się podczas pisania, historia posiada UUID; import łączy historię bez duplikowania. Nie modyfikujemy dawnych danych localStorage.
-
-Usunięcie englishflow/ w starym repo jest poprzedzone gałęzią backup/englishflow-before-split-2026-10-26. Pliki Oxford sprawdzane są po zmianie przez porównanie drzew Git z wyłączeniem englishflow/.
+Pierwotną wersję zabezpieczono gałęzią backup/englishflow-before-split-2026-10-26.
