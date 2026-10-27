@@ -1,7 +1,7 @@
-import {renderTenseOverview} from './grammar-notes.js?v=12';
-import {esc,icon} from './ui.js?v=12';
-import {dayKey} from './planner.js?v=12';
-import {statusBadge} from './schedule.js?v=12';
+import {renderTenseOverview} from './grammar-notes.js?v=13';
+import {esc,icon} from './ui.js?v=13';
+import {dayKey} from './planner.js?v=13';
+import {statusBadge} from './schedule.js?v=13';
 const order=[0,18,1,6,19,20,2,3,11,5,4,7,8,21,22,9,10,26,12,13,24,14,15,16,23,25,17];
 export function grammarSchedule(prefs,grammar){return order.map((n,index)=>{const week=index<18?Math.floor(index/2):9+Math.floor((index-18)/3),day=index<18?(index%2?3:0):[0,2,4][(index-18)%3],date=new Date((prefs.planStart||dayKey())+'T12:00:00');date.setDate(date.getDate()+week*7+day);return {...grammar[n],week:week+1,planned:dayKey(date),dateLabel:new Intl.DateTimeFormat('pl',{weekday:'short',day:'numeric',month:'short'}).format(date)};}).filter(g=>g.id);}
 export function nextGrammar(S,events,grammar){const latest=new Map();for(const e of events)if(e.type==='complete'&&e.lesson)latest.set(e.lesson,e);const due=[...latest.values()].filter(e=>e.reviewAt&&e.reviewAt<=Date.now()).sort((a,b)=>a.reviewAt-b.reviewAt)[0];return grammar.find(g=>g.id===due?.lesson)||grammarSchedule(S.prefs,grammar).find(g=>!latest.has(g.id))||grammar[0];}

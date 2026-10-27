@@ -1,5 +1,5 @@
-import {dayKey,DAY} from './planner.js?v=12';
-import {esc,icon} from './ui.js?v=12';
+import {dayKey,DAY} from './planner.js?v=13';
+import {esc,icon} from './ui.js?v=13';
 export function coursePosition(prefs,now=new Date()) {const start=new Date((prefs.planStart||dayKey(now))+'T00:00:00'),date=new Date(now);date.setHours(0,0,0,0);const offset=Math.max(0,Math.round((date-start)/DAY));return {week:Math.min(11,Math.floor(offset/7)),day:offset%7,start};}
 export function studyStatus(events,id,kind='material'){const rows=events.filter(e=>e[kind]===id);const done=rows.filter(e=>e.type==='complete').at(-1),opened=rows.filter(e=>e.type==='opened'||e.type==='attempt').at(-1);return done?{kind:'done',label:'Ukończone',date:done.day}:opened?{kind:'opened',label:'Otwarte',date:opened.day}:{kind:'new',label:'Jeszcze nieotwarte'};}
 export function statusBadge(events,id,kind='material'){const status=studyStatus(events,id,kind);return `<span class="study-status ${status.kind}">${status.kind==='done'?'✓':status.kind==='opened'?'◷':'○'} ${status.label}${status.date?' · '+status.date:''}</span>`;}

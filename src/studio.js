@@ -1,5 +1,5 @@
-import {esc,icon} from './ui.js?v=12';
-import {dayKey,DAY} from './planner.js?v=12';
+import {esc,icon} from './ui.js?v=13';
+import {dayKey,DAY} from './planner.js?v=13';
 export const DEFAULT_CONVERSATION='https://chatgpt.com/';
 export const DEFAULT_TEACHER='https://chatgpt.com/';
 export function teacherLinks(S){return `<div class="teacher-links"><a href="${esc(S.prefs.conversationUrl||DEFAULT_CONVERSATION)}" target="_blank" rel="noopener noreferrer"><span>${icon('speaking')}</span><div><strong>Mój czat do rozmów</strong><small>Role-play, głos i codzienna praktyka</small></div>${icon('arrow')}</a><a href="${esc(S.prefs.teacherUrl||DEFAULT_TEACHER)}" target="_blank" rel="noopener noreferrer"><span>${icon('grammar')}</span><div><strong>Mój główny nauczyciel</strong><small>Gramatyka, pisanie i wyjaśnienia</small></div>${icon('arrow')}</a></div>`;}

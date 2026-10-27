@@ -1,48 +1,32 @@
 # EnglishFlow
 
-Osobna aplikacja do codziennej nauki angielskiego. Oryginalny Oxford 3000 pozostaje na https://bartekstefen.github.io/oxford3000-nauka/ — wszystkie pliki, nagrania i postępy pozostają bez zmian.
-
-Nowa strona: https://bartekstefen.github.io/englishflow/
+Aplikacja do codziennej nauki angielskiego, z oryginalnym Oxfordem wewnątrz i synchronizacją Supabase po zalogowaniu.
 
 ## Uruchomienie
 
-Node 24+, bez instalowania zależności:
-
-```
-npm run dev
-npm run check
-npm test
-```
+Node 24+, bez zależności: npm run dev, npm run check, npm test.
 
 ## Funkcje
 
-- Plan dnia 5–180 minut, dobierany do historii i błędów. Zachowanie ukończonych zadań po zmianie czasu.
-- 27 lekcji gramatycznych A1–B2: zastosowanie, konstrukcje, przykłady z tłumaczeniem, błędy, quiz, wpisywanie i własna wypowiedź.
-- Cała biblioteka z poprzedniego kodu: 60 pozycji w 12 tygodniach i 19 dodatkowych źródeł; wyszukiwanie, filtry, ulubione, ćwiczenia.
-- Speaking z instrukcją dla ChatGPT/Gemini, zapisanym nauczycielem i refleksją po rozmowie.
-- Busuu: ręczne potwierdzenie, temat i praktyka w trzech własnych zdaniach.
-- Dziennik, dwa autorskie teksty reading z quizami, historia i statystyki rzeczywistych sesji.
-- IndexedDB, szkice, import historii bez dublowania, pełny eksport, PWA, aktualizacje i tryb ciemny.
-- Opcjonalne logowanie e-mail i synchronizacja niezmiennej historii sesji przez Supabase.
+- Plan 5–180 minut i ręczna checklista. Krótkie sesje: słówka + Busuu.
+- Oxford: 3805 rekordów, sześć trybów, oryginalne nagrania i postępy. Dane pobierane z dotychczasowego Oxforda.
+- 27 lekcji gramatyki, tabele wszystkich osób, 12 scenariuszy życiowych, 102 materiały.
+- Pięć dodatkowych lekcji komunikacyjnych od podstaw po B2. Bez testu startowego; poziom wybiera uczeń według Busuu.
+- Autorskie teksty do słuchania przez syntezator, pytania z kluczem, krótkie sprawdziany konstrukcji i samoocena umiejętności. To praktyka uzupełniająca, nie certyfikacja CEFR.
+- Zeszyt własnych poprawek i odtwarzanie zdań z pamięci: po sukcesie 1, 3, 7, 14, 30 dni; po pomyłce 10 minut.
+- Dziennik i zadania mówione/pisemne z instrukcją do zewnętrznego nauczyciela. Brak automatycznej oceny otwartych wypowiedzi.
+- IndexedDB, PWA, tryb ciemny, eksport i import.
 
-## Supabase — konfiguracja opcjonalna
+## Synchronizacja i prywatność
 
-Bez konfiguracji działa tryb lokalny. Aby synchronizować historię pomiędzy iPhonem i komputerem:
+Publiczna strona nie zawiera osobistych adresów czatów. Publiczny klucz Supabase nie jest kluczem administracyjnym. Tabele chroni RLS według auth.uid(); schemat w docs/supabase.sql.
 
-1. Utwórz własny projekt Supabase i uruchom `docs/supabase.sql` w SQL Editor.
-2. W Authentication włącz Email. Ustaw Site URL i Redirect URLs na adres wdrożonego EnglishFlow.
-3. W ustawieniach EnglishFlow wpisz Project URL i publiczny publishable/anon key. Nigdy service_role ani sb_secret.
-4. Podaj e-mail i zaloguj się otrzymanym linkiem. Powtórz na drugim urządzeniu.
-5. Użyj „Synchronizuj historię”. Przesyłane są wyłącznie niezmienne sesje; UUID zapewniają idempotentne ponowienia. RLS ogranicza odczyt i zapis do właściciela.
+Zaloguj się tym samym e-mailem na obu urządzeniach i potwierdź logowanie linkiem. Synchronizowane są słówka, ustawienia, szkice, historia, ulubione, ścieżka i zeszyt poprawek. Nie wykonano jeszcze testu na dwóch fizycznych, zalogowanych urządzeniach użytkownika.
 
-Ustawienia, szkice i ulubione pozostają lokalne; pełny eksport obejmuje je, ale import łączy wyłącznie historię. Konto Supabase wymaga konfiguracji przez właściciela, nie jest aktywowane automatycznie.
+Prywatne skróty są osobnym dokumentem konta. Pobierane po zalogowaniu, nie trafiają do publicznego kodu, zwykłego stanu offline ani eksportu JSON. Wylogowanie usuwa ich pamięciowy podgląd. Link udostępniania ChatGPT nie staje się prywatny po zapisaniu skrótu; aplikacja odrzuca takie adresy.
 
-## Granice i materiały
+## Granice
 
-Oxford zachowuje swój oryginalny algorytm powtórek. EnglishFlow nie zastępuje go FSRS ani nie publikuje kopii słownictwa/nagrań. Linki materiałów są odziedziczone i oznaczone jako takie; ich dostępność nie jest gwarantowana. Nie publikujemy cudzych transkrypcji. Otwarte odpowiedzi nie są oceniane automatycznie; wyniki procentowe dotyczą tylko pytań z kluczem. Czasy sesji potwierdza użytkownik.
+Nie jest to kompletny certyfikowany kurs ani gwarancja osiągnięcia B2 w 12 tygodni. Busuu pozostaje zewnętrznym kursem, jego postęp potwierdza uczeń. BBC i inne materiały mają niezależną dostępność. Brak kopiowania cudzych transkrypcji, nagrań i certyfikatów. Syntezator wymaga dostępnego głosu na urządzeniu.
 
-Audyt: `docs/AUDIT.md`. Podstawa dydaktyczna: `docs/research.md`. Brak deklaracji otwartej licencji na odziedziczone opisy i metadane.
-
-## Wdrożenie
-
-GitHub Actions weryfikuje składnię i testy oraz publikuje pliki na Pages. SW stosuje network-first dla zasobów aplikacji i komunikat przed aktywacją nowej wersji. Cache ma własny prefiks EnglishFlow. Materiały zewnętrzne wymagają sieci.
+GitHub Actions sprawdza składnię i testy oraz publikuje Pages.
