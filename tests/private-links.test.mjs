@@ -1,0 +1,3 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {validatePrivateLinks,privateLinksView} from '../src/private-links.js';
+test('private shortcuts require login and reject public chat shares and unsafe URLs',()=>{assert.match(privateLinksView({cloud:{}}),/Zaloguj/);assert.doesNotMatch(privateLinksView({cloud:{}}),/<form/);assert.throws(()=>validatePrivateLinks({chat:'https://chatgpt.com/share/example'}),/publiczny/);assert.throws(()=>validatePrivateLinks({chat:'javascript:alert(1)'}),/HTTPS/);assert.throws(()=>validatePrivateLinks({material:'https://user:pass@example.com/'}),/HTTPS/);assert.deepEqual(validatePrivateLinks({chat:'https://chatgpt.com/c/example',material:''}),{chat:'https://chatgpt.com/c/example',material:''});});
