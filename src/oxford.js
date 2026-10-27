@@ -6,7 +6,7 @@ import {icon as flowIcon} from './ui.js';
 export function mountOxford(host,{onSave,theme='light'}={}){
 const ASSETS='https://bartekstefen.github.io/oxford3000-nauka/';
 const root=host.shadowRoot||host.attachShadow({mode:'open'});
-root.innerHTML='<link rel="stylesheet" href="src/oxford-original.css?v=9"><div id="app"><div class="loading">Ładowanie oryginalnego Oxforda…</div></div><div id="toast" role="status" aria-live="polite"></div>';
+root.innerHTML='<link rel="stylesheet" href="src/oxford-original.css?v=10"><div id="app"><div class="loading">Ładowanie oryginalnego Oxforda…</div></div><div id="toast" role="status" aria-live="polite"></div>';
 const lifecycle=new AbortController();let keyboard=null;
 const nativeDoc=globalThis.document;
 const document={querySelector:root.querySelector.bind(root),querySelectorAll:root.querySelectorAll.bind(root),body:root,documentElement:host,createElement:nativeDoc.createElement.bind(nativeDoc),execCommand:nativeDoc.execCommand.bind(nativeDoc),addEventListener:(type,fn,opts)=>root.addEventListener(type,fn,{...(typeof opts==='boolean'?{capture:opts}:opts),signal:lifecycle.signal}),get onkeydown(){return keyboard},set onkeydown(fn){keyboard=fn}};
