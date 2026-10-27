@@ -1,4 +1,5 @@
-import {icon as flowIcon} from './ui.js?v=13';
+import {loadLessonFile} from './offline.js?v=14';
+import {icon as flowIcon} from './ui.js?v=14';
 /* Original Oxford application, adapted only at its browser boundary.
  * Source commit: 2c088150bdadf1dfbef14ab720e7a0caca4ccae8.
  * All six modes, word identifiers, grading and flashcard mechanisms are retained.
@@ -6,7 +7,7 @@ import {icon as flowIcon} from './ui.js?v=13';
 export function mountOxford(host,{onSave,theme='light'}={}){
 const ASSETS='https://bartekstefen.github.io/oxford3000-nauka/';
 const root=host.shadowRoot||host.attachShadow({mode:'open'});
-root.innerHTML='<link rel="stylesheet" href="src/oxford-original.css?v=13"><div id="app"><div class="loading">Ładowanie oryginalnego Oxforda…</div></div><div id="toast" role="status" aria-live="polite"></div>';
+root.innerHTML='<link rel="stylesheet" href="src/oxford-original.css?v=14"><div id="app"><div class="loading">Ładowanie oryginalnego Oxforda…</div></div><div id="toast" role="status" aria-live="polite"></div>';
 const lifecycle=new AbortController();let keyboard=null;
 const nativeDoc=globalThis.document;
 const document={querySelector:root.querySelector.bind(root),querySelectorAll:root.querySelectorAll.bind(root),body:root,documentElement:host,createElement:nativeDoc.createElement.bind(nativeDoc),execCommand:nativeDoc.execCommand.bind(nativeDoc),addEventListener:(type,fn,opts)=>root.addEventListener(type,fn,{...(typeof opts==='boolean'?{capture:opts}:opts),signal:lifecycle.signal}),get onkeydown(){return keyboard},set onkeydown(fn){keyboard=fn}};
@@ -682,7 +683,7 @@ async function downloadLevel(i,btn){
 async function init(){
   applyTheme();
   try{
-    const r=await fetch(ASSETS+'data.json'); const D=await r.json();
+    const D=await loadLessonFile(ASSETS+'data.json');
     LEVELS=D.levels; W=D.words; W.forEach(w=>{ BYID[w.id]=w; (BYLEVEL[w.l]=BYLEVEL[w.l]||[]).push(w); const k=normEN(w.w); (EN_IDX[k]=EN_IDX[k]||[]).push(w); });
   }catch(e){ app().innerHTML='<div class="loading">Nie udało się wczytać słówek. Sprawdź internet i odśwież stronę.</div>'; return; }
   route();
