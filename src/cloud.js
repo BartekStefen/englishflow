@@ -1,5 +1,5 @@
-import {state as S,save,applyDocuments} from './store.js';
-import {mergeEvents} from './planner.js';
+import {state as S,save,applyDocuments} from './store.js?v=11';
+import {mergeEvents} from './planner.js?v=11';
 export function configure(url,key){const u=new URL(url);if(u.protocol!=='https:'||!u.hostname.endsWith('.supabase.co'))throw Error('Wpisz adres projektu https://…supabase.co');if(!key||key.includes('service_role')||key.startsWith('sb_secret_'))throw Error('Użyj wyłącznie publicznego klucza publishable/anon.');try{const p=JSON.parse(atob(key.split('.')[1]));if(p.role&&p.role!=='anon')throw Error('Niedozwolony klucz.');}catch(e){if(e.message==='Niedozwolony klucz.')throw e;}S.cloud={url:u.origin,key};return save();}
 async function request(path,options={},token){const {url,key}=S.cloud;if(!url||!key)throw Error('Najpierw skonfiguruj Supabase.');const r=await fetch(url+path,{...options,headers:{'Content-Type':'application/json',apikey:key,...(token?{Authorization:'Bearer '+token}:{}),...options.headers}});const text=await r.text();const data=text?JSON.parse(text):null;if(!r.ok)throw Error(data?.msg||data?.message||data?.error_description||'Błąd połączenia z Supabase.');return data;}
 export async function login(email){await request('/auth/v1/otp?redirect_to='+encodeURIComponent(location.origin+location.pathname),{method:'POST',body:JSON.stringify({email,create_user:true})});}

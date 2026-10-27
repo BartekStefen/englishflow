@@ -1,4 +1,4 @@
-import {dayKey,mergeEvents} from './planner.js';
+import {dayKey,mergeEvents} from './planner.js?v=11';
 let db;
 export const state={events:[],prefs:{minutes:20,theme:'light',level:'A2',name:'Bartek',goal:120,conversationUrl:'',teacherUrl:''},drafts:{},favorites:[],cloud:{},documents:{},oxford:null};
 let fingerprints={};

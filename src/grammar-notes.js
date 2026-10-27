@@ -1,5 +1,5 @@
-import {personTables} from './person-tables.js';
-import {esc,icon} from './ui.js';
+import {personTables} from './person-tables.js?v=11';
+import {esc,icon} from './ui.js?v=11';
 
 const notes={
  simple:{names:['Present Simple'],title:'Tak jest zwykle.',meaning:'Mówisz o tym, co robisz regularnie, co lubisz albo co jest faktem. Nie opisujesz koniecznie tego, co dzieje się w tej sekundzie.',story:'Ktoś pyta o Twój zwykły dzień na studiach. Opowiadasz o rutynie, a nie relacjonujesz trwających zajęć.',en:'I study computer science. I usually work in the evening.',pl:'Studiuję informatykę. Zwykle pracuję wieczorem.',clue:'every day · usually · often · never',compare:'I work every day = mam taki zwyczaj. I’m working now = robię to właśnie teraz.',error:'She works. Ale: Does she work? i She doesn’t work. Końcówka -s pojawia się tylko w twierdzeniu.',task:'Powiedz, o której wstajesz, co studiujesz i co zwykle robisz wieczorem.',aux:'do / does',tip:'Przy he, she i it dodajesz -s. Przy I, you, we i they zostawiasz zwykły czasownik.',time:'every day'},
