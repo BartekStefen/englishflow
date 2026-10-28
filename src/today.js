@@ -1,6 +1,6 @@
-import {plan,dayKey,streak,DAY,oxfordStats} from './planner.js?v=14';
-import {nextGrammar} from './grammar-path.js?v=14';
-import {esc,icon} from './ui.js?v=14';
+import {plan,dayKey,streak,DAY,oxfordStats} from './planner.js?v=15';
+import {nextGrammar} from './grammar-path.js?v=15';
+import {esc,icon} from './ui.js?v=15';
 export function renderToday(S,events,materials,grammar,curriculum){
  const today=dayKey(),opts=S.drafts['plan:'+today]||{},tasks=plan(S.prefs.minutes,events,Date.now(),opts),finished=tasks.filter(t=>t.done).length,doneMinutes=events.filter(e=>e.day===today&&e.type==='complete').reduce((s,e)=>s+e.minutes,0),next=tasks.find(t=>!t.done),stats=oxfordStats(S.oxford);
  const days=new Set(events.filter(e=>e.type==='complete').map(e=>e.day)),pct=Math.min(100,Math.round(doneMinutes/S.prefs.minutes*100));

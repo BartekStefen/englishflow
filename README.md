@@ -21,7 +21,7 @@ Node 24+, bez zależności: npm run dev, npm run check, npm test.
 
 Publiczna strona nie zawiera osobistych adresów czatów. Publiczny klucz Supabase nie jest kluczem administracyjnym. Tabele chroni RLS według auth.uid(); schemat w docs/supabase.sql.
 
-Zaloguj się tym samym e-mailem na obu urządzeniach i potwierdź logowanie linkiem. Synchronizowane są słówka, ustawienia, szkice, historia, ulubione, ścieżka i zeszyt poprawek. Nie wykonano jeszcze testu na dwóch fizycznych, zalogowanych urządzeniach użytkownika.
+Na zalogowanym urządzeniu ustaw hasło do konta. Na pozostałych urządzeniach i w aplikacji z ekranu głównego zaloguj się tym samym e-mailem i hasłem. Link e-mail pozostaje opcją zapasową. Logowanie hasłem nie wysyła wiadomości. Synchronizowane są słówka, ustawienia, szkice, historia, ulubione, ścieżka i zeszyt poprawek. Nie wykonano jeszcze testu na dwóch fizycznych, zalogowanych urządzeniach użytkownika.
 
 Prywatne skróty są osobnym dokumentem konta. Pobierane po zalogowaniu, nie trafiają do publicznego kodu, zwykłego stanu offline ani eksportu JSON. Wylogowanie usuwa ich pamięciowy podgląd. Link udostępniania ChatGPT nie staje się prywatny po zapisaniu skrótu; aplikacja odrzuca takie adresy.
 
@@ -30,3 +30,7 @@ Prywatne skróty są osobnym dokumentem konta. Pobierane po zalogowaniu, nie tra
 Nie jest to kompletny certyfikowany kurs ani gwarancja osiągnięcia B2 w 12 tygodni. Busuu pozostaje zewnętrznym kursem, jego postęp potwierdza uczeń. BBC i inne materiały mają niezależną dostępność. Brak kopiowania cudzych transkrypcji, nagrań i certyfikatów. Syntezator wymaga dostępnego głosu na urządzeniu.
 
 GitHub Actions sprawdza składnię i testy oraz publikuje Pages.
+
+## Konto
+
+Widoczny status pokazuje potwierdzony e-mail, synchronizację i tryb offline. Każda przeglądarka i aplikacja z ekranu głównego ma własną sesję. Hasła nie trafiają do IndexedDB, dokumentów synchronizacji ani kopii danych. Przesyłane są bezpośrednio do Supabase Auth. Lokalny zapis jest przypisany do zweryfikowanego identyfikatora konta, aby nie wysyłać postępów pod inne konto. Odświeżanie sesji korzysta z blokady między kartami, gdy przeglądarka ją udostępnia.
